@@ -17,46 +17,92 @@ logger = logging.getLogger(__name__)
 GEMINI_MODELS = ['gemini-flash-latest', 'gemini-3.8-flash']
 
 OLLAMA_API_URL = getattr(settings, 'OLLAMA_API_URL', 'http://localhost:11434')
-OLLAMA_MODELS = ['llama3.2', 'llama3', 'mistral', 'phi3', 'qwen2.5', 'gemma2']
+OLLAMA_MODELS = [
+    getattr(settings, 'OLLAMA_MODEL', 'qwen-local'),
+    'qwen-local',
+    'qwen2.5:14b-instruct-q5_K_M',
+    'qwen2.5',
+    'llama3.2',
+    'llama3',
+    'mistral',
+    'phi3',
+    'gemma2',
+]
+
 
 def call_ollama_api(prompt):
-    """Auto-detects local Ollama Small Language Model (SLM) daemon and generates itinerary JSON."""
-    try:
-        tags_resp = requests.get(f"{OLLAMA_API_URL}/api/tags", timeout=1.5)
-        if tags_resp.status_code == 200:
-            installed = [m.get('name', '').split(':')[0] for m in tags_resp.json().get('models', [])]
-            selected_model = None
-            for pref in OLLAMA_MODELS:
-                for inst in installed:
-                    if pref in inst:
-                        selected_model = inst
-                        break
-                if selected_model:
-                    break
-            if not selected_model and installed:
-                selected_model = installed[0]
+    """
+    Auto-detects local Ollama Small Language Model (SLM) daemon and generates itinerary JSON.
+    Prioritizes qwen-local (or configured OLLAMA_MODEL) and falls back gracefully.
+    """
+    candidate_urls = []
+    if OLLAMA_API_URL:
+        candidate_urls.append(OLLAMA_API_URL.rstrip('/'))
+    for u in ['http://localhost:11434', 'http://127.0.0.1:11434', 'http://host.docker.internal:11434']:
+        if u not in candidate_urls:
+            candidate_urls.append(u)
 
-            if selected_model:
-                logger.info('Local Ollama SLM detected! Generating itinerary with model: %s', selected_model)
-                payload = {
-                    'model': selected_model,
-                    'prompt': prompt,
-                    'format': 'json',
-                    'stream': False,
-                    'options': {'temperature': 0.7}
-                }
-                gen_resp = requests.post(f"{OLLAMA_API_URL}/api/generate", json=payload, timeout=90)
-                if gen_resp.status_code == 200:
-                    raw_res = gen_resp.json().get('response', '').strip()
-                    if raw_res.startswith('```'):
-                        raw_res = '\n'.join(raw_res.split('\n')[1:])
-                    if raw_res.endswith('```'):
-                        raw_res = '\n'.join(raw_res.split('\n')[:-1])
-                    parsed = json.loads(raw_res)
-                    if parsed and (parsed.get('days') or parsed.get('items')):
-                        return parsed
+    working_endpoint = None
+    installed_models = []
+
+    for endpoint in candidate_urls:
+        try:
+            tags_resp = requests.get(f"{endpoint}/api/tags", timeout=2.0)
+            if tags_resp.status_code == 200:
+                working_endpoint = endpoint
+                installed_models = [m.get('name', '') for m in tags_resp.json().get('models', [])]
+                break
+        except Exception:
+            continue
+
+    if not working_endpoint or not installed_models:
+        logger.debug('Ollama SLM daemon not detected on candidate endpoints.')
+        return None
+
+    # Match preferred models with installed models
+    selected_model = None
+    for pref in OLLAMA_MODELS:
+        for m in installed_models:
+            base_m = m.split(':')[0]
+            if pref == m or pref == base_m or m.startswith(pref):
+                selected_model = m
+                break
+        if selected_model:
+            break
+
+    if not selected_model and installed_models:
+        selected_model = installed_models[0]
+
+    if not selected_model:
+        return None
+
+    logger.info('Local Ollama SLM active at %s! Generating with model: %s', working_endpoint, selected_model)
+    payload = {
+        'model': selected_model,
+        'prompt': prompt,
+        'format': 'json',
+        'stream': False,
+        'options': {'temperature': 0.7}
+    }
+
+    try:
+        gen_resp = requests.post(f"{working_endpoint}/api/generate", json=payload, timeout=120)
+        if gen_resp.status_code == 200:
+            raw_res = gen_resp.json().get('response', '').strip()
+            if raw_res.startswith('```'):
+                raw_res = '\n'.join(raw_res.split('\n')[1:])
+            if raw_res.endswith('```'):
+                raw_res = '\n'.join(raw_res.split('\n')[:-1])
+            parsed = json.loads(raw_res)
+            if isinstance(parsed, dict):
+                if 'itinerary' in parsed and 'days' not in parsed:
+                    parsed['days'] = parsed['itinerary']
+                if parsed.get('days') or parsed.get('items'):
+                    logger.info('Ollama SLM (%s) generated valid itinerary JSON', selected_model)
+                    return parsed
     except Exception as e:
-        logger.debug('Ollama SLM check/generation bypassed: %s', e)
+        logger.warning('Ollama SLM generation failed or timed out: %s', e)
+
     return None
 
 
@@ -134,12 +180,8 @@ You MUST respond ONLY with valid JSON in this schema (no markdown):
 """
 
 
-def call_gemini_api(system_prompt):
-    # 1. Try local Ollama SLM first if available on user's laptop
-    ollama_result = call_ollama_api(system_prompt)
-    if ollama_result:
-        return ollama_result
-    """Calls Gemini with automatic model fallback and responseMimeType JSON."""
+def call_gemini_api_direct(system_prompt):
+    """Calls Google Gemini API directly."""
     api_key = settings.GEMINI_API_KEY
     if not api_key or api_key == 'your-gemini-api-key':
         return None
@@ -173,18 +215,12 @@ def call_gemini_api(system_prompt):
     return None
 
 
-def call_gemini_single_day(title, destination, day_number, user_prompt):
-    """Calls Gemini to customize a single day based on user instructions."""
+def call_gemini_single_day_direct(prompt):
+    """Calls Google Gemini API directly for single day."""
     api_key = settings.GEMINI_API_KEY
     if not api_key or api_key == 'your-gemini-api-key':
         return None
 
-    prompt = SINGLE_DAY_PROMPT_TEMPLATE.format(
-        title=title,
-        destination=destination,
-        day_number=day_number,
-        user_prompt=user_prompt or 'Exciting city exploration.',
-    )
     payload = {
         'contents': [{'parts': [{'text': prompt}]}],
         'generationConfig': {
@@ -211,6 +247,78 @@ def call_gemini_single_day(title, destination, day_number, user_prompt):
         except Exception as e:
             logger.warning('Gemini single-day model %s failed: %s', model, e)
     return None
+
+
+def generate_itinerary_with_engine(system_prompt, engine='auto'):
+    """
+    Routes itinerary generation based on user preference:
+    - 'slm': uses local Ollama SLM (qwen-local) only
+    - 'gemini': uses Google Gemini API directly
+    - 'auto': tries local SLM first, falls back to Google Gemini
+    Returns: (parsed_json, engine_name)
+    """
+    mode = str(engine or 'auto').strip().lower()
+
+    if mode in ('slm', 'ollama', 'local'):
+        logger.info('User selected Local SLM (qwen-local)...')
+        res = call_ollama_api(system_prompt)
+        if res and res.get('days'):
+            return res, 'Local SLM (qwen-local)'
+        return None, None
+
+    if mode in ('gemini', 'cloud'):
+        logger.info('User selected Google Gemini Cloud API...')
+        res = call_gemini_api_direct(system_prompt)
+        if res and res.get('days'):
+            return res, 'Google Gemini AI'
+        return None, None
+
+    # Default 'auto': SLM first, fallback to Gemini
+    logger.info('Auto engine: trying Local SLM first...')
+    res = call_ollama_api(system_prompt)
+    if res and res.get('days'):
+        return res, 'Local SLM (qwen-local)'
+
+    logger.info('Auto engine: SLM unavailable, falling back to Google Gemini...')
+    res = call_gemini_api_direct(system_prompt)
+    if res and res.get('days'):
+        return res, 'Google Gemini AI'
+
+    return None, None
+
+
+def generate_single_day_with_engine(prompt, engine='auto'):
+    """
+    Routes single-day customization based on user preference:
+    - 'slm': uses local Ollama SLM (qwen-local) only
+    - 'gemini': uses Google Gemini API directly
+    - 'auto': tries local SLM first, falls back to Google Gemini
+    Returns: (parsed_json, engine_name)
+    """
+    mode = str(engine or 'auto').strip().lower()
+
+    if mode in ('slm', 'ollama', 'local'):
+        res = call_ollama_api(prompt)
+        if res and res.get('items'):
+            return res, 'Local SLM (qwen-local)'
+        return None, None
+
+    if mode in ('gemini', 'cloud'):
+        res = call_gemini_single_day_direct(prompt)
+        if res and res.get('items'):
+            return res, 'Google Gemini AI'
+        return None, None
+
+    # Default 'auto':
+    res = call_ollama_api(prompt)
+    if res and res.get('items'):
+        return res, 'Local SLM (qwen-local)'
+
+    res = call_gemini_single_day_direct(prompt)
+    if res and res.get('items'):
+        return res, 'Google Gemini AI'
+
+    return None, None
 
 
 GEOCODE_CACHE = {}
@@ -938,6 +1046,7 @@ class PlanTripView(APIView):
         trip_id = request.data.get('trip_id')
         user_prompt = request.data.get('user_prompt') or request.data.get('prompt') or ''
         target_day_raw = request.data.get('day_number')
+        engine = request.data.get('engine', 'auto')
 
         if not trip_id:
             return Response(
@@ -971,13 +1080,20 @@ class PlanTripView(APIView):
         # Handle SINGLE DAY update
         if target_day:
             day_content = None
+            engine_used = None
             destination_str = (
                 f'{trip.destination.city}, {trip.destination.country}'
                 if trip.destination
                 else trip.title
             )
             if user_prompt:
-                day_content = call_gemini_single_day(trip.title, destination_str, target_day, user_prompt)
+                prompt = SINGLE_DAY_PROMPT_TEMPLATE.format(
+                    title=trip.title,
+                    destination=destination_str,
+                    day_number=target_day,
+                    user_prompt=user_prompt or 'Exciting city exploration.',
+                )
+                day_content, engine_used = generate_single_day_with_engine(prompt, engine=engine)
 
             if not day_content or not day_content.get('items'):
                 exclude_names = set()
@@ -992,6 +1108,7 @@ class PlanTripView(APIView):
                     city, country, target_day, user_prompt,
                     destination=trip.destination, exclude_names=exclude_names
                 )
+                engine_used = engine_used or 'Curated Knowledge Base'
 
             with transaction.atomic():
                 ItineraryDay.objects.filter(trip=trip, day_number=target_day).delete()
@@ -1035,6 +1152,7 @@ class PlanTripView(APIView):
                     'trip_id': trip.trip_id,
                     'days': serializer.data,
                     'updated_day': target_day,
+                    'engine_used': engine_used,
                 },
                 status=status.HTTP_200_OK,
             )
@@ -1059,31 +1177,14 @@ class PlanTripView(APIView):
             user_prompt=user_prompt or 'No special instructions.',
         )
 
-        # 1. Primary: Call Google Gemini LLM
-        itinerary_json = call_gemini_api(system_prompt)
+        # 1. Primary: Generate via requested engine ('slm', 'gemini', or 'auto')
+        itinerary_json, engine_used = generate_itinerary_with_engine(system_prompt, engine=engine)
 
-        # 2. Try Local Ollama if available and Gemini was not used
+        # 2. Dynamic Prompt-Aware Discovery Fallback Engine (if selected AI returned no days)
         if not itinerary_json or not itinerary_json.get('days'):
-            try:
-                oll_resp = requests.post(
-                    'http://host.docker.internal:11434/api/generate',
-                    json={
-                        'model': 'qwen2.5:14b-instruct-q5_K_M',
-                        'prompt': system_prompt,
-                        'stream': False,
-                        'format': 'json',
-                    },
-                    timeout=4,
-                )
-                if oll_resp.status_code == 200:
-                    raw_out = oll_resp.json().get('response', '')
-                    itinerary_json = json.loads(raw_out)
-            except Exception:
-                pass
-
-        # 3. Dynamic Prompt-Aware Discovery Fallback Engine
-        if not itinerary_json or not itinerary_json.get('days'):
+            logger.info('Selected AI engine unavailable; utilizing dynamic curated discovery fallback')
             itinerary_json = generate_curated_itinerary(trip, num_days, user_prompt)
+            engine_used = engine_used or 'Curated Knowledge Base'
 
         days_data = itinerary_json.get('days', [])
         packing_list = itinerary_json.get('packing_list', [])
@@ -1145,6 +1246,7 @@ class PlanTripView(APIView):
                 'trip_id': trip.trip_id,
                 'days': serializer.data,
                 'packing_list': packing_list,
+                'engine_used': engine_used,
             },
             status=status.HTTP_200_OK,
         )

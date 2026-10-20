@@ -19,6 +19,7 @@ import {
 import { generateTripPlan } from '../api/ai.js';
 import WeatherWidget from '../components/WeatherWidget.jsx';
 import LoadingSpinner from '../components/LoadingSpinner.jsx';
+import AiEngineSelector from '../components/AiEngineSelector.jsx';
 
 // Fix Leaflet default icon path for Vite
 delete L.Icon.Default.prototype._getIconUrl;
@@ -146,6 +147,7 @@ export default function TripDetail() {
   const [updatingStatus, setUpdatingStatus] = useState(false);
   const [deleting, setDeleting] = useState(false);
   const [generatingPlan, setGeneratingPlan] = useState(false);
+  const [aiEngine, setAiEngine] = useState('slm'); // 'slm' | 'gemini' | 'auto'
   const [promptInput, setPromptInput] = useState('');
   const [packingList, setPackingList] = useState([]);
   const [showPromptDrawer, setShowPromptDrawer] = useState(false);
@@ -258,12 +260,13 @@ export default function TripDetail() {
     }
   };
 
-  const handleGenerateItinerary = async (overridePrompt, overrideDay) => {
+  const handleGenerateItinerary = async (overridePrompt, overrideDay, overrideEngine) => {
     setGeneratingPlan(true);
     try {
       const promptToUse = overridePrompt !== undefined ? overridePrompt : (promptInput || trip?.prompt_text || '');
       const dayParam = overrideDay !== undefined ? overrideDay : (selectedDay === 'all' ? null : parseInt(selectedDay, 10));
-      const res = await generateTripPlan(id, promptToUse, dayParam);
+      const engineToUse = overrideEngine !== undefined ? overrideEngine : aiEngine;
+      const res = await generateTripPlan(id, promptToUse, dayParam, engineToUse);
       const generated = res.data;
       if (generated?.days?.length > 0) {
         setItinerary(generated.days);
@@ -675,6 +678,9 @@ export default function TripDetail() {
                 </span>
               </div>
 
+              {/* AI Engine Selector */}
+              <AiEngineSelector value={aiEngine} onChange={setAiEngine} compact />
+
               <textarea
                 rows={2}
                 placeholder={
@@ -748,6 +754,9 @@ export default function TripDetail() {
                 </div>
 
                 <div className="space-y-3 pt-2 text-left">
+                  {/* AI Engine Selector */}
+                  <AiEngineSelector value={aiEngine} onChange={setAiEngine} compact />
+
                   <label className="tg-label block text-[11px]">
                     Travel Preferences & Highlights (Optional)
                   </label>

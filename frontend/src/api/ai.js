@@ -5,8 +5,9 @@ import axiosInstance from './axios.js';
  * @param {number} tripId - The trip to attach the plan to
  * @param {string} promptText - Natural language prompt from the user
  * @param {number|null} dayNumber - Optional single day to plan/re-plan
+ * @param {string} engine - 'slm' | 'gemini' | 'auto'
  */
-export const generateTripPlan = (tripId, promptText, dayNumber = null) =>
+export const generateTripPlan = (tripId, promptText, dayNumber = null, engine = 'auto') =>
   axiosInstance.post(
     '/ai/plan/',
     {
@@ -14,8 +15,9 @@ export const generateTripPlan = (tripId, promptText, dayNumber = null) =>
       user_prompt: promptText,
       prompt: promptText,
       day_number: dayNumber || null,
+      engine: engine || 'auto',
     },
-    { timeout: 60000 }
+    { timeout: 120000 }
   );
 
 /**

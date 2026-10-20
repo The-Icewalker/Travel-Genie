@@ -161,9 +161,11 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # ---------------------------------------------------------------------------
-# External API keys
+# External API keys & SLM (Ollama)
 # ---------------------------------------------------------------------------
 GEMINI_API_KEY = config('GEMINI_API_KEY', default='')
+OLLAMA_API_URL = config('OLLAMA_API_URL', default='http://localhost:11434')
+OLLAMA_MODEL = config('OLLAMA_MODEL', default='qwen-local')
 OPEN_EXCHANGE_RATES_URL = config(
     'OPEN_EXCHANGE_RATES_URL',
     default='https://open.er-api.com/v6/latest/USD',

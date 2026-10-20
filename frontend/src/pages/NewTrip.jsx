@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { createTrip } from '../api/trips.js';
 import { generateTripPlan } from '../api/ai.js';
 import LoadingSpinner from '../components/LoadingSpinner.jsx';
+import AiEngineSelector from '../components/AiEngineSelector.jsx';
 
 const INSPIRATION_PRESETS = [
   {
@@ -48,6 +49,7 @@ export default function NewTrip() {
   });
   const [fieldErrors, setFieldErrors] = useState({});
   const [error, setError] = useState('');
+  const [aiEngine, setAiEngine] = useState('slm'); // 'slm' | 'gemini' | 'auto'
   const [generatedPlan, setGeneratedPlan] = useState(null);
   const [createdTripId, setCreatedTripId] = useState(null);
 
@@ -129,7 +131,7 @@ export default function NewTrip() {
       // 2. If prompt provided, invoke AI planner
       if (form.prompt_text.trim()) {
         try {
-          const aiRes = await generateTripPlan(tripId, form.prompt_text);
+          const aiRes = await generateTripPlan(tripId, form.prompt_text, null, aiEngine);
           setGeneratedPlan(aiRes.data);
         } catch (aiErr) {
           console.warn('AI planning note:', aiErr);
@@ -233,7 +235,14 @@ export default function NewTrip() {
                 <h3 className="tg-serif text-xl font-bold" style={{ color: 'var(--ink)' }}>
                   Bespoke AI Itinerary
                 </h3>
-                <p className="text-xs text-[var(--mute)]">Curated specifically from your prompts & preferences</p>
+                <p className="text-xs text-[var(--mute)] flex items-center gap-2">
+                  <span>Curated specifically from your prompts & preferences</span>
+                  {(generatedPlan?.engine_used || aiEngine) && (
+                    <span className="font-mono text-[10px] font-bold px-2 py-0.5 rounded-full bg-[var(--ink)] text-white">
+                      Engine: {generatedPlan?.engine_used || aiEngine}
+                    </span>
+                  )}
+                </p>
               </div>
             </div>
 
@@ -427,25 +436,32 @@ export default function NewTrip() {
         </div>
 
         {/* AI Planner Section */}
-        <div className="pt-4 border-t" style={{ borderColor: 'var(--line)' }}>
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-lg">✨</span>
-            <label htmlFor="prompt_text" className="tg-label">
-              AI Travel Concierge Prompts <span className="text-[var(--mute)] font-normal">(Optional)</span>
-            </label>
+        <div className="pt-4 border-t space-y-5" style={{ borderColor: 'var(--line)' }}>
+          {/* AI Engine Selector */}
+          <AiEngineSelector value={aiEngine} onChange={setAiEngine} />
+
+          <div>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-lg">✨</span>
+              <label htmlFor="prompt_text" className="tg-label">
+                AI Travel Concierge Prompts <span className="text-[var(--mute)] font-normal">(Optional)</span>
+              </label>
+            </div>
+            <textarea
+              id="prompt_text"
+              name="prompt_text"
+              rows={4}
+              value={form.prompt_text}
+              onChange={handleChange}
+              className="tg-input resize-none"
+              placeholder="Tell us your travel style, dietary preferences, pace, interests (e.g. art, hikes, hidden bistros), and total budget target…"
+            />
+            <p className="mt-2 text-xs text-[var(--mute)]">
+              {aiEngine === 'slm' && '⚡ Powered by local SLM (qwen-local via Ollama). High speed, private & offline capable.'}
+              {aiEngine === 'gemini' && '✨ Powered by Google Gemini Pro API in the cloud.'}
+              {aiEngine === 'auto' && '🔄 Auto Engine: Uses local qwen-local first, automatically falling back to Gemini if offline.'}
+            </p>
           </div>
-          <textarea
-            id="prompt_text"
-            name="prompt_text"
-            rows={4}
-            value={form.prompt_text}
-            onChange={handleChange}
-            className="tg-input resize-none"
-            placeholder="Tell us your travel style, dietary preferences, pace, interests (e.g. art, hikes, hidden bistros), and total budget target…"
-          />
-          <p className="mt-2 text-xs text-[var(--mute)]">
-            Our Gemini AI model automatically structures daily activities, timing suggestions, and budget estimates based on this brief.
-          </p>
         </div>
 
         {/* Submit Bar */}
