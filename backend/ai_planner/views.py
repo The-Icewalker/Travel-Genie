@@ -16,6 +16,50 @@ logger = logging.getLogger(__name__)
 
 GEMINI_MODELS = ['gemini-flash-latest', 'gemini-3.8-flash']
 
+OLLAMA_API_URL = getattr(settings, 'OLLAMA_API_URL', 'http://localhost:11434')
+OLLAMA_MODELS = ['llama3.2', 'llama3', 'mistral', 'phi3', 'qwen2.5', 'gemma2']
+
+def call_ollama_api(prompt):
+    """Auto-detects local Ollama Small Language Model (SLM) daemon and generates itinerary JSON."""
+    try:
+        tags_resp = requests.get(f"{OLLAMA_API_URL}/api/tags", timeout=1.5)
+        if tags_resp.status_code == 200:
+            installed = [m.get('name', '').split(':')[0] for m in tags_resp.json().get('models', [])]
+            selected_model = None
+            for pref in OLLAMA_MODELS:
+                for inst in installed:
+                    if pref in inst:
+                        selected_model = inst
+                        break
+                if selected_model:
+                    break
+            if not selected_model and installed:
+                selected_model = installed[0]
+
+            if selected_model:
+                logger.info('Local Ollama SLM detected! Generating itinerary with model: %s', selected_model)
+                payload = {
+                    'model': selected_model,
+                    'prompt': prompt,
+                    'format': 'json',
+                    'stream': False,
+                    'options': {'temperature': 0.7}
+                }
+                gen_resp = requests.post(f"{OLLAMA_API_URL}/api/generate", json=payload, timeout=90)
+                if gen_resp.status_code == 200:
+                    raw_res = gen_resp.json().get('response', '').strip()
+                    if raw_res.startswith('```'):
+                        raw_res = '\n'.join(raw_res.split('\n')[1:])
+                    if raw_res.endswith('```'):
+                        raw_res = '\n'.join(raw_res.split('\n')[:-1])
+                    parsed = json.loads(raw_res)
+                    if parsed and (parsed.get('days') or parsed.get('items')):
+                        return parsed
+    except Exception as e:
+        logger.debug('Ollama SLM check/generation bypassed: %s', e)
+    return None
+
+
 import math
 import re
 
@@ -91,6 +135,10 @@ You MUST respond ONLY with valid JSON in this schema (no markdown):
 
 
 def call_gemini_api(system_prompt):
+    # 1. Try local Ollama SLM first if available on user's laptop
+    ollama_result = call_ollama_api(system_prompt)
+    if ollama_result:
+        return ollama_result
     """Calls Gemini with automatic model fallback and responseMimeType JSON."""
     api_key = settings.GEMINI_API_KEY
     if not api_key or api_key == 'your-gemini-api-key':
