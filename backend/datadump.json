@@ -1,0 +1,7741 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "24tl95epqjorshv2pkxlwfgh057wlbkj",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIhiv:8QHIMExqxTQbAFZ3vUQB4V2RlT2LEjuKoYK7HfsKqJM",
+    "expire_date": "2026-11-02T07:23:57.661Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4nik17fwjg7svwsurc4yd21wiu9dxy0y",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIpmz:IijiOOTnr8thOSOCtTWJZBYQHrGFYqK6xVOsMQlnIZg",
+    "expire_date": "2026-11-02T16:00:41.036Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8gs2ergoxbp28n2to5pm5jr8asppf1ut",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIhiQ:QPnNauXIejSFsMYZUR3goY-EuGbqXnkUYpjHsCCFI9c",
+    "expire_date": "2026-11-02T07:23:26.134Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "azfn6f8gilj6kacc1rd2uivu3br5py5d",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIpn9:X_QRp2CeeRcZGyK-AwJN-yo7HKOstyPli0ZCg27guUw",
+    "expire_date": "2026-11-02T16:00:51.808Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hsql5eb0ceofvslf8mci0ax4tjk2ml8l",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIhnU:jywBnfGsobdAzDSk2UfzQKSch8RY2dSJs6u0W6ntYdQ",
+    "expire_date": "2026-11-02T07:28:40.416Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i6uv17go0buv13a4u8c91opk4nsxst85",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIpmV:PdozOvsxxKtvxjiQ9XmX0hF-8--rMlZpND2VPR0IzlE",
+    "expire_date": "2026-11-02T16:00:11.407Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "k3ipaq90nnbyot39jwz316bamsg60ok4",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIpmg:KIdqAhXvBOtM-Nn6QGB0k5Al3m80GnaoNTMGk__dUfQ",
+    "expire_date": "2026-11-02T16:00:22.665Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kbqexc2diwbx4whhb4ueyk9wmjuuh4qv",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmLQO4dO8ZyMCAVA0kpV0Z765NutDtf-_9l_C0rcVvPS1-ZnEWozj9boHiI9Ud8J3qrcnY6rrMQe6KPGiX18bpeTncv4NCvXzrQSMjoMoajc2UQhgpsskOIqJziibjkjFI2gIzpyGPRGBB44TKghXvD-OmN4s:1xIwMz:60H561iPdHpSzim33HaTlssfk23j3ys7UHRf9noSsdk",
+    "expire_date": "2026-11-02T23:02:17.145Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lsb64fut6gxf5d9tvganrbtwtgwnnapt",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIpnT:_SowcvwV1CQR-PrJTvMn5iXjv9r8UUVYxmvPJdU2cSs",
+    "expire_date": "2026-11-02T16:01:11.303Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ndu37jmrkmjv6ujm8u4ulyqc1umz20dz",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAJFAZcuvcMZBhAqoYmpV0Z764kXej2v_f-SwTatxr2ntcwJ3EWkzj9bpH4kdsA6U7ttkhe2rbOUQ5FHrTL65Ly83K4fweVev3WhWNhimgAULFCj0YT-TIhomfOjtiCZiQ7FOUcGNAlK5uiB5eteH8A8bU3rw:1xIqCa:ImkEMBFDg2YUGQxSpG82B48FplCBeW4tgGFEnUDyxeg",
+    "expire_date": "2026-11-02T16:27:08.529Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y66so2he1vxkramnxendieckgezh9036",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChQAsu3XsGMsyAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hZnEWWpx-t4j0SHUHfMd6a5JaXZc5yl2RB-3y2jg9L4f7d1Cwl29tvUfybNmogSdISM7oCUfPESgrYyE5BUCOjIkavLUwAGeAkX2mmMT7A93UN8U:1xIhib:6gQnx2gVfpyi0Uh_b5DeNNN-solRnUS8A9cdgeIM7hk",
+    "expire_date": "2026-11-02T07:23:37.927Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 1,
+  "fields": {
+    "token": 1,
+    "blacklisted_at": "2026-10-17T18:21:48.677Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 2,
+  "fields": {
+    "token": 2,
+    "blacklisted_at": "2026-10-18T14:25:39.951Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 3,
+  "fields": {
+    "token": 3,
+    "blacklisted_at": "2026-10-18T14:52:58.561Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 4,
+  "fields": {
+    "token": 4,
+    "blacklisted_at": "2026-10-18T15:57:41.374Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 5,
+  "fields": {
+    "token": 18,
+    "blacklisted_at": "2026-10-18T19:32:11.828Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 6,
+  "fields": {
+    "token": 25,
+    "blacklisted_at": "2026-10-19T07:14:48.618Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 7,
+  "fields": {
+    "token": 26,
+    "blacklisted_at": "2026-10-19T07:15:20.284Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 8,
+  "fields": {
+    "token": 27,
+    "blacklisted_at": "2026-10-19T08:42:24.353Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 9,
+  "fields": {
+    "token": 28,
+    "blacklisted_at": "2026-10-19T16:12:29.276Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 10,
+  "fields": {
+    "token": 29,
+    "blacklisted_at": "2026-10-19T17:31:47.059Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 11,
+  "fields": {
+    "token": 34,
+    "blacklisted_at": "2026-10-19T20:13:00.616Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 12,
+  "fields": {
+    "token": 35,
+    "blacklisted_at": "2026-10-19T22:35:05.669Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 13,
+  "fields": {
+    "token": 38,
+    "blacklisted_at": "2026-10-19T22:50:26.098Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 14,
+  "fields": {
+    "token": 39,
+    "blacklisted_at": "2026-10-19T22:51:07.032Z"
+  }
+},
+{
+  "model": "token_blacklist.blacklistedtoken",
+  "pk": 15,
+  "fields": {
+    "token": 40,
+    "blacklisted_at": "2026-10-19T22:58:48.143Z"
+  }
+},
+{
+  "model": "accounts.role",
+  "pk": 3,
+  "fields": {
+    "role_name": "traveler"
+  }
+},
+{
+  "model": "accounts.role",
+  "pk": 4,
+  "fields": {
+    "role_name": "admin"
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$QzEySFRoOEVKZjh4aGZuSnA5MU9WbQ$6e3/uDoso1q6HnClJK6adC0HBJelYIu6G5xdmiTZM4Y",
+    "last_login": "2026-10-19T23:02:17.141Z",
+    "is_superuser": true,
+    "email": "admin@travelgenie.com",
+    "full_name": "TravelGenie Admin",
+    "role": 4,
+    "is_active": true,
+    "is_staff": true,
+    "created_at": "2026-10-17T15:20:30.826Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$UEFtY2thcXZuUXg0VThHQmx0OGQ5dg$gKEHmbzzjrFC02gX9chvkFpQSWCCXIIurQKF5nytEzs",
+    "last_login": "2026-10-19T16:27:08.520Z",
+    "is_superuser": false,
+    "email": "traveler@travelgenie.com",
+    "full_name": "Demo Traveler",
+    "role": 3,
+    "is_active": true,
+    "is_staff": false,
+    "created_at": "2026-10-17T15:20:30.906Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$UmZzMmhNVlQ1Q1plVHg4dG1JbmZkNg$+IpasqKcPsnDC67bFWp3YCwaFy0fgNAVX/uFhCR5Y/0",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "icewalker2737@gmail.com",
+    "full_name": "Bassil",
+    "role": 3,
+    "is_active": true,
+    "is_staff": false,
+    "created_at": "2026-10-19T22:47:17.483Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 4,
+  "fields": {
+    "city": "Paris",
+    "country": "France",
+    "currency_code": "EUR",
+    "visa_info": "Schengen visa required for non-EU citizens.",
+    "best_season": "Spring (April–June)"
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 5,
+  "fields": {
+    "city": "Tokyo",
+    "country": "Japan",
+    "currency_code": "JPY",
+    "visa_info": "Visa-free for many nationalities for up to 90 days.",
+    "best_season": "Spring (March–April) for cherry blossoms"
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 6,
+  "fields": {
+    "city": "New York",
+    "country": "USA",
+    "currency_code": "USD",
+    "visa_info": "ESTA required for Visa Waiver Program countries.",
+    "best_season": "Fall (September–November)"
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 7,
+  "fields": {
+    "city": "Zermatt",
+    "country": "Switzerland",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 8,
+  "fields": {
+    "city": "Kyoto",
+    "country": "Japan",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 9,
+  "fields": {
+    "city": "Positano",
+    "country": "Italy",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 10,
+  "fields": {
+    "city": "India",
+    "country": "Global",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 11,
+  "fields": {
+    "city": "Tamil",
+    "country": "Global",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 12,
+  "fields": {
+    "city": "Tamil Nadu",
+    "country": "India",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 13,
+  "fields": {
+    "city": "VELLORE",
+    "country": "Global",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 14,
+  "fields": {
+    "city": "Madurai",
+    "country": "Global",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 15,
+  "fields": {
+    "city": "Chennai",
+    "country": "Global",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 16,
+  "fields": {
+    "city": "New Delhi",
+    "country": "Global",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 17,
+  "fields": {
+    "city": "Delhi",
+    "country": "India",
+    "currency_code": "INR",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 18,
+  "fields": {
+    "city": "Cochin",
+    "country": "Global",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.destination",
+  "pk": 19,
+  "fields": {
+    "city": "Coimbatore",
+    "country": "Global",
+    "currency_code": "USD",
+    "visa_info": "",
+    "best_season": ""
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 7,
+  "fields": {
+    "destination": 4,
+    "name": "Eiffel Tower",
+    "category": "Landmark",
+    "avg_cost": "26.00",
+    "lat": "48.858370",
+    "lng": "2.294481"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 8,
+  "fields": {
+    "destination": 4,
+    "name": "Louvre Museum",
+    "category": "Museum",
+    "avg_cost": "17.00",
+    "lat": "48.860611",
+    "lng": "2.337644"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 9,
+  "fields": {
+    "destination": 5,
+    "name": "Senso-ji Temple",
+    "category": "Religious Site",
+    "avg_cost": "0.00",
+    "lat": "35.714765",
+    "lng": "139.796655"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 10,
+  "fields": {
+    "destination": 5,
+    "name": "Shibuya Crossing",
+    "category": "Landmark",
+    "avg_cost": "0.00",
+    "lat": "35.659513",
+    "lng": "139.700440"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 11,
+  "fields": {
+    "destination": 6,
+    "name": "Statue of Liberty",
+    "category": "Landmark",
+    "avg_cost": "24.30",
+    "lat": "40.689247",
+    "lng": "-74.044502"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 12,
+  "fields": {
+    "destination": 6,
+    "name": "Central Park",
+    "category": "Park",
+    "avg_cost": "0.00",
+    "lat": "40.785091",
+    "lng": "-73.968285"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 13,
+  "fields": {
+    "destination": 13,
+    "name": "Vellore Kitchen",
+    "category": "food",
+    "avg_cost": "25.00",
+    "lat": "12.948267",
+    "lng": "79.137395"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 14,
+  "fields": {
+    "destination": 13,
+    "name": "Vellore Fort",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "12.920467",
+    "lng": "79.128182"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 15,
+  "fields": {
+    "destination": 13,
+    "name": "Jalakandeswarar Temple, Vellore",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "12.922438",
+    "lng": "79.129219"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 16,
+  "fields": {
+    "destination": 13,
+    "name": "Sri Lakshmi Narayani Golden Temple, Sripuram",
+    "category": "landmark",
+    "avg_cost": "10.00",
+    "lat": "12.873850",
+    "lng": "79.088265"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 17,
+  "fields": {
+    "destination": 13,
+    "name": "Temple",
+    "category": "landmark",
+    "avg_cost": "10.00",
+    "lat": "12.879910",
+    "lng": "79.134440"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 18,
+  "fields": {
+    "destination": 13,
+    "name": "Government Museum - Vellore",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "12.919496",
+    "lng": "79.129857"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 19,
+  "fields": {
+    "destination": 14,
+    "name": "Yanaimalai",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.972202",
+    "lng": "78.199104"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 20,
+  "fields": {
+    "destination": 14,
+    "name": "Gandhi Memorial Museum",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.929879",
+    "lng": "78.138608"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 21,
+  "fields": {
+    "destination": 14,
+    "name": "Madurai Vegetarian Restaurant",
+    "category": "landmark",
+    "avg_cost": "10.00",
+    "lat": "10.543876",
+    "lng": "76.213303"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 22,
+  "fields": {
+    "destination": 14,
+    "name": "Temple",
+    "category": "landmark",
+    "avg_cost": "10.00",
+    "lat": "9.650768",
+    "lng": "77.832114"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 23,
+  "fields": {
+    "destination": 14,
+    "name": "Gandhi Ninaivu Arungatchiyagam",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.929879",
+    "lng": "78.138608"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 24,
+  "fields": {
+    "destination": 14,
+    "name": "Madurai",
+    "category": "nature",
+    "avg_cost": "10.00",
+    "lat": "9.833333",
+    "lng": "77.833333"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 25,
+  "fields": {
+    "destination": 15,
+    "name": "Chennai Fort",
+    "category": "landmark",
+    "avg_cost": "10.00",
+    "lat": "13.083075",
+    "lng": "80.282669"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 26,
+  "fields": {
+    "destination": 15,
+    "name": "Temple",
+    "category": "landmark",
+    "avg_cost": "10.00",
+    "lat": "12.987192",
+    "lng": "80.234205"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 27,
+  "fields": {
+    "destination": 15,
+    "name": "Museum",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "13.008891",
+    "lng": "80.240011"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 28,
+  "fields": {
+    "destination": 15,
+    "name": "Chennai Park",
+    "category": "nature",
+    "avg_cost": "10.00",
+    "lat": "13.080754",
+    "lng": "80.273088"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 29,
+  "fields": {
+    "destination": 15,
+    "name": "Chennai Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "25.277033",
+    "lng": "55.308404"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 30,
+  "fields": {
+    "destination": 14,
+    "name": "Badri Narayanan temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "10.061957",
+    "lng": "78.211908"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 31,
+  "fields": {
+    "destination": 14,
+    "name": "Koodal Azhagar Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.914397",
+    "lng": "78.114108"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 32,
+  "fields": {
+    "destination": 14,
+    "name": "Kutladampatti Falls",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "10.131000",
+    "lng": "78.017000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 33,
+  "fields": {
+    "destination": 14,
+    "name": "Meenakshi Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.919700",
+    "lng": "78.119400"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 34,
+  "fields": {
+    "destination": 14,
+    "name": "Murugan Temple, Pazhamudircholai",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "10.094069",
+    "lng": "78.223445"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 35,
+  "fields": {
+    "destination": 14,
+    "name": "Narasingam Yoga Narasimha Perumal Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.966667",
+    "lng": "78.188889"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 36,
+  "fields": {
+    "destination": 14,
+    "name": "Subramaniya Swamy Temple, Thiruparankundram",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.879800",
+    "lng": "78.071100"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 37,
+  "fields": {
+    "destination": 14,
+    "name": "Thiru Aappanoor",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.930500",
+    "lng": "78.122800"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 38,
+  "fields": {
+    "destination": 14,
+    "name": "Thirumalai Nayakkar Mahal",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.914800",
+    "lng": "78.124300"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 39,
+  "fields": {
+    "destination": 14,
+    "name": "Thirumohoor Kalamegaperumal temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.951025",
+    "lng": "78.207100"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 40,
+  "fields": {
+    "destination": 14,
+    "name": "Karseri",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.873500",
+    "lng": "78.216667"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 41,
+  "fields": {
+    "destination": 14,
+    "name": "Madurai Kamaraj University",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.940392",
+    "lng": "78.010536"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 42,
+  "fields": {
+    "destination": 14,
+    "name": "Tamukkam Palace",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.931007",
+    "lng": "78.132518"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 43,
+  "fields": {
+    "destination": 14,
+    "name": "Thiruparankundram",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.882300",
+    "lng": "78.072000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 44,
+  "fields": {
+    "destination": 14,
+    "name": "Thiruparankundram Dargah",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.876400",
+    "lng": "78.069300"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 45,
+  "fields": {
+    "destination": 14,
+    "name": "Thiruvedagam",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.985958",
+    "lng": "77.993102"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 46,
+  "fields": {
+    "destination": 14,
+    "name": "Tallakulam (Madurai)",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.932278",
+    "lng": "78.138306"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 47,
+  "fields": {
+    "destination": 14,
+    "name": "Aasife Biriyani - Madurai (Thanakkankulam)",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.882693",
+    "lng": "78.040190"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 48,
+  "fields": {
+    "destination": 14,
+    "name": "Bells Jumbo Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.933829",
+    "lng": "78.090192"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 49,
+  "fields": {
+    "destination": 14,
+    "name": "Shree Lakshmi Bhavan",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.924388",
+    "lng": "78.093901"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 50,
+  "fields": {
+    "destination": 14,
+    "name": "Zafron",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.920429",
+    "lng": "78.093260"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 51,
+  "fields": {
+    "destination": 14,
+    "name": "Shrew Lakshmi Bhavan",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.924353",
+    "lng": "78.093945"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 52,
+  "fields": {
+    "destination": 14,
+    "name": "Lakshmi veg & non veg hotel",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.926774",
+    "lng": "78.094516"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 53,
+  "fields": {
+    "destination": 14,
+    "name": "Blind Chemistry",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.922682",
+    "lng": "78.094230"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 54,
+  "fields": {
+    "destination": 14,
+    "name": "McDonald's",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.923836",
+    "lng": "78.094448"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 55,
+  "fields": {
+    "destination": 14,
+    "name": "K G Veg Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.918861",
+    "lng": "78.093570"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 56,
+  "fields": {
+    "destination": 14,
+    "name": "Nanban catering",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.920477",
+    "lng": "78.093960"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 57,
+  "fields": {
+    "destination": 14,
+    "name": "Annapoorna",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.919083",
+    "lng": "78.094217"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 58,
+  "fields": {
+    "destination": 14,
+    "name": "Kumar Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.917796",
+    "lng": "78.093975"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 59,
+  "fields": {
+    "destination": 14,
+    "name": "Gowri Krishna",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.913046",
+    "lng": "78.096462"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 60,
+  "fields": {
+    "destination": 14,
+    "name": "Valli Lingam Chettinadu Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "10.048744",
+    "lng": "78.089276"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 61,
+  "fields": {
+    "destination": 14,
+    "name": "SRM Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.917931",
+    "lng": "78.112682"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 62,
+  "fields": {
+    "destination": 14,
+    "name": "Sri Shanmuga Chettinad Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.921664",
+    "lng": "78.147862"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 63,
+  "fields": {
+    "destination": 14,
+    "name": "Police Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.937577",
+    "lng": "78.139065"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 64,
+  "fields": {
+    "destination": 14,
+    "name": "Karaikudi Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.954384",
+    "lng": "78.180067"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 65,
+  "fields": {
+    "destination": 14,
+    "name": "Vijay Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.921220",
+    "lng": "78.149859"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 66,
+  "fields": {
+    "destination": 14,
+    "name": "Kalyan Mess Nonveg",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.940142",
+    "lng": "78.131955"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 67,
+  "fields": {
+    "destination": 14,
+    "name": "Gowri Shankar Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.935325",
+    "lng": "78.103336"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 68,
+  "fields": {
+    "destination": 14,
+    "name": "Sree Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.918107",
+    "lng": "78.111520"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 69,
+  "fields": {
+    "destination": 14,
+    "name": "Maruthas Mess Veg & Non Veg",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.929496",
+    "lng": "78.129648"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 70,
+  "fields": {
+    "destination": 14,
+    "name": "கிருஷ்ணன் மெஸ்",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.913644",
+    "lng": "78.143809"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 71,
+  "fields": {
+    "destination": 14,
+    "name": "Kasthuri grill house (veg and non veg multi cuisines restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.897891",
+    "lng": "78.119249"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 72,
+  "fields": {
+    "destination": 14,
+    "name": "AMMAN VEG RESTAURANT",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.920112",
+    "lng": "78.125294"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 73,
+  "fields": {
+    "destination": 14,
+    "name": "Bismi Hotel Veg & Non veg",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.932144",
+    "lng": "78.143646"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 74,
+  "fields": {
+    "destination": 14,
+    "name": "Baskaran veg & non veg Hotel",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.931737",
+    "lng": "78.101003"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 75,
+  "fields": {
+    "destination": 14,
+    "name": "Hotel Merina Veg Hotel",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.944617",
+    "lng": "78.156659"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 76,
+  "fields": {
+    "destination": 14,
+    "name": "Ashokbhavan Veg Hotel",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.931082",
+    "lng": "78.131946"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 77,
+  "fields": {
+    "destination": 14,
+    "name": "New Manorama Veg",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.918868",
+    "lng": "78.120945"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 78,
+  "fields": {
+    "destination": 14,
+    "name": "Karthick Bhavan Veg Hotel",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.935264",
+    "lng": "78.103521"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 79,
+  "fields": {
+    "destination": 14,
+    "name": "King Metro Veg Hotel",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.929343",
+    "lng": "78.129765"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 80,
+  "fields": {
+    "destination": 14,
+    "name": "அம்மன் சைவ உணவகம்",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.914106",
+    "lng": "78.143241"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 81,
+  "fields": {
+    "destination": 14,
+    "name": "Adyar Ananda Bhavan A2B Veg Restaurant - Vilakuthoon Madurai",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.917683",
+    "lng": "78.123857"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 82,
+  "fields": {
+    "destination": 14,
+    "name": "Namma Biryani",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.923859",
+    "lng": "78.148499"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 83,
+  "fields": {
+    "destination": 14,
+    "name": "Kumbakonam Degree Coffee",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.911583",
+    "lng": "78.049644"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 84,
+  "fields": {
+    "destination": 14,
+    "name": "Mug and Beans",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.892054",
+    "lng": "78.076358"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 85,
+  "fields": {
+    "destination": 14,
+    "name": "Chottu Cafe",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.922735",
+    "lng": "78.096916"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 86,
+  "fields": {
+    "destination": 14,
+    "name": "British Bakery Cafe",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.917120",
+    "lng": "78.111507"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 87,
+  "fields": {
+    "destination": 14,
+    "name": "Gowree",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.923104",
+    "lng": "78.115274"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 88,
+  "fields": {
+    "destination": 14,
+    "name": "Lassi House Villapuram",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.902822",
+    "lng": "78.118048"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 89,
+  "fields": {
+    "destination": 14,
+    "name": "SRI RAM COFFEE CORNER",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.923131",
+    "lng": "78.123963"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 90,
+  "fields": {
+    "destination": 14,
+    "name": "P.K.N. Coffee Corner",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.921256",
+    "lng": "78.146560"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 91,
+  "fields": {
+    "destination": 14,
+    "name": "Chai Sutta Bar",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.922101",
+    "lng": "78.148343"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 92,
+  "fields": {
+    "destination": 14,
+    "name": "Meenakshi Bazaar Road",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.925171",
+    "lng": "78.113229"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 93,
+  "fields": {
+    "destination": 14,
+    "name": "Big Bazaar street",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.820814",
+    "lng": "77.982261"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 94,
+  "fields": {
+    "destination": 14,
+    "name": "Small Bazaar street",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.822311",
+    "lng": "77.985043"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 95,
+  "fields": {
+    "destination": 14,
+    "name": "Madurai. Bazaar",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.920640",
+    "lng": "78.118566"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 96,
+  "fields": {
+    "destination": 14,
+    "name": "பிக் பஜார்",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.928969",
+    "lng": "78.095749"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 97,
+  "fields": {
+    "destination": 16,
+    "name": "Chhatarpur Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.501944",
+    "lng": "77.179444"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 98,
+  "fields": {
+    "destination": 16,
+    "name": "Hanuman Temple, Connaught Place",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.630000",
+    "lng": "77.215000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 99,
+  "fields": {
+    "destination": 16,
+    "name": "ISKCON Temple, Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.558056",
+    "lng": "77.243333"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 100,
+  "fields": {
+    "destination": 16,
+    "name": "Jagannath Temple, Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.554290",
+    "lng": "77.199660"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 101,
+  "fields": {
+    "destination": 16,
+    "name": "Jantar Mantar, New Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.627100",
+    "lng": "77.216400"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 102,
+  "fields": {
+    "destination": 16,
+    "name": "Laxminarayan Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.632700",
+    "lng": "77.198900"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 103,
+  "fields": {
+    "destination": 16,
+    "name": "Lotus Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.553328",
+    "lng": "77.258456"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 104,
+  "fields": {
+    "destination": 16,
+    "name": "Swaminarayan Akshardham (Delhi)",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.612500",
+    "lng": "77.277222"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 105,
+  "fields": {
+    "destination": 16,
+    "name": "Uttara Swami Malai Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.567500",
+    "lng": "77.165556"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 106,
+  "fields": {
+    "destination": 16,
+    "name": "Yogmaya Temple, Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.525000",
+    "lng": "77.182500"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 107,
+  "fields": {
+    "destination": 16,
+    "name": "Agrasen Ki Baoli",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.626111",
+    "lng": "77.225000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 108,
+  "fields": {
+    "destination": 16,
+    "name": "Connaught Place, New Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.632778",
+    "lng": "77.219722"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 109,
+  "fields": {
+    "destination": 16,
+    "name": "Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.610000",
+    "lng": "77.230000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 110,
+  "fields": {
+    "destination": 16,
+    "name": "Delhi Durbar",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.723500",
+    "lng": "77.196800"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 111,
+  "fields": {
+    "destination": 16,
+    "name": "Delhi Ridge",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.616000",
+    "lng": "77.169000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 112,
+  "fields": {
+    "destination": 16,
+    "name": "Jama Masjid, Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.650700",
+    "lng": "77.233400"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 113,
+  "fields": {
+    "destination": 16,
+    "name": "Qutb Minar complex",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.524382",
+    "lng": "77.185430"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 114,
+  "fields": {
+    "destination": 16,
+    "name": "Rashtrapati Bhavan",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.614444",
+    "lng": "77.199722"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 115,
+  "fields": {
+    "destination": 16,
+    "name": "Delhi-Topra pillar",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.635835",
+    "lng": "77.245641"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 116,
+  "fields": {
+    "destination": 16,
+    "name": "Garstin Bastion Road, New Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.647500",
+    "lng": "77.222778"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 117,
+  "fields": {
+    "destination": 16,
+    "name": "Jawaharlal Nehru Stadium, Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.582873",
+    "lng": "77.234380"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 118,
+  "fields": {
+    "destination": 16,
+    "name": "Sadar Bazaar, Delhi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "28.658813",
+    "lng": "77.216742"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 119,
+  "fields": {
+    "destination": 16,
+    "name": "Turning Point Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.596904",
+    "lng": "77.132555"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 120,
+  "fields": {
+    "destination": 16,
+    "name": "Capital Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.596920",
+    "lng": "77.132607"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 121,
+  "fields": {
+    "destination": 16,
+    "name": "The Naan Corner",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.597035",
+    "lng": "77.132393"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 122,
+  "fields": {
+    "destination": 16,
+    "name": "Binge-ish",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.596406",
+    "lng": "77.134780"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 123,
+  "fields": {
+    "destination": 16,
+    "name": "Janta Hotel",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.595708",
+    "lng": "77.123077"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 124,
+  "fields": {
+    "destination": 16,
+    "name": "Nashta Nukkad",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.595116",
+    "lng": "77.122777"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 125,
+  "fields": {
+    "destination": 16,
+    "name": "Dilli' See Us",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.594805",
+    "lng": "77.122629"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 126,
+  "fields": {
+    "destination": 16,
+    "name": "Shubham's Cookhouse",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.593592",
+    "lng": "77.122003"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 127,
+  "fields": {
+    "destination": 16,
+    "name": "Shahi Pakwan",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.595675",
+    "lng": "77.122579"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 128,
+  "fields": {
+    "destination": 16,
+    "name": "Sardar Jee",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.594926",
+    "lng": "77.122286"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 129,
+  "fields": {
+    "destination": 16,
+    "name": "Sainik Hotel",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.595398",
+    "lng": "77.122426"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 130,
+  "fields": {
+    "destination": 16,
+    "name": "Sabre Officers Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.600688",
+    "lng": "77.137438"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 131,
+  "fields": {
+    "destination": 16,
+    "name": "Bengali Dhaba",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.594050",
+    "lng": "77.121687"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 132,
+  "fields": {
+    "destination": 16,
+    "name": "Al-Dijaaj",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.593974",
+    "lng": "77.121608"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 133,
+  "fields": {
+    "destination": 16,
+    "name": "Quereshi's Cantt Biryani Corner",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.595236",
+    "lng": "77.121363"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 134,
+  "fields": {
+    "destination": 16,
+    "name": "Trident Officers' Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.604234",
+    "lng": "77.131519"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 135,
+  "fields": {
+    "destination": 16,
+    "name": "Base Hospital Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.606946",
+    "lng": "77.134279"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 136,
+  "fields": {
+    "destination": 16,
+    "name": "Railway Protection Force Officers' Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.612935",
+    "lng": "77.139866"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 137,
+  "fields": {
+    "destination": 16,
+    "name": "Defence Officers Mess (Dhaula Kuan)",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.599499",
+    "lng": "77.162567"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 138,
+  "fields": {
+    "destination": 16,
+    "name": "Naval Officers Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.572516",
+    "lng": "77.138967"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 139,
+  "fields": {
+    "destination": 16,
+    "name": "Veg Gulati",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.607786",
+    "lng": "77.229925"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 140,
+  "fields": {
+    "destination": 16,
+    "name": "Alkauser ( best biryani)",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.601892",
+    "lng": "77.193652"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 141,
+  "fields": {
+    "destination": 16,
+    "name": "Biryani Blues",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.629823",
+    "lng": "77.220583"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 142,
+  "fields": {
+    "destination": 16,
+    "name": "Jalish Shahi Chicken Biryani",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.633443",
+    "lng": "77.223171"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 143,
+  "fields": {
+    "destination": 16,
+    "name": "Bikkgane Biryani",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.631531",
+    "lng": "77.216157"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 144,
+  "fields": {
+    "destination": 16,
+    "name": "The Veg Biryani House",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "28.681982",
+    "lng": "77.204640"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 145,
+  "fields": {
+    "destination": 16,
+    "name": "Cafe Coffee Day",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.597105",
+    "lng": "77.132431"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 146,
+  "fields": {
+    "destination": 16,
+    "name": "Longewala Lounge",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.574152",
+    "lng": "77.117273"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 147,
+  "fields": {
+    "destination": 16,
+    "name": "Cheap food places",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.565032",
+    "lng": "77.122799"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 148,
+  "fields": {
+    "destination": 16,
+    "name": "Nor sure",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.573485",
+    "lng": "77.153950"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 149,
+  "fields": {
+    "destination": 16,
+    "name": "Carnatic Café",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.564670",
+    "lng": "77.119797"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 150,
+  "fields": {
+    "destination": 16,
+    "name": "Sabharwal Tea Stall",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.593189",
+    "lng": "77.164582"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 151,
+  "fields": {
+    "destination": 16,
+    "name": "The Garden Restaurant",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.618818",
+    "lng": "77.178503"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 152,
+  "fields": {
+    "destination": 16,
+    "name": "Amour Bistro",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.601635",
+    "lng": "77.185997"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 153,
+  "fields": {
+    "destination": 16,
+    "name": "Costa",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.559671",
+    "lng": "77.087373"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 154,
+  "fields": {
+    "destination": 16,
+    "name": "Starbucks",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "28.602234",
+    "lng": "77.186130"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 155,
+  "fields": {
+    "destination": 17,
+    "name": "Chandni Chowk",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "28.655983",
+    "lng": "77.232194"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 156,
+  "fields": {
+    "destination": 17,
+    "name": "Red Fort",
+    "category": "attraction",
+    "avg_cost": "8.00",
+    "lat": "28.656081",
+    "lng": "77.240796"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 157,
+  "fields": {
+    "destination": 17,
+    "name": "India Gate",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "28.612933",
+    "lng": "77.229493"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 158,
+  "fields": {
+    "destination": 17,
+    "name": "Humayun's Tomb",
+    "category": "attraction",
+    "avg_cost": "8.00",
+    "lat": "28.593286",
+    "lng": "77.250647"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 159,
+  "fields": {
+    "destination": 17,
+    "name": "Swaminarayan Akshardham",
+    "category": "attraction",
+    "avg_cost": "5.00",
+    "lat": "28.612517",
+    "lng": "77.277318"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 160,
+  "fields": {
+    "destination": 17,
+    "name": "Qutub Minar",
+    "category": "attraction",
+    "avg_cost": "8.00",
+    "lat": "28.524413",
+    "lng": "77.185450"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 161,
+  "fields": {
+    "destination": 17,
+    "name": "Lodhi Garden",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "28.596300",
+    "lng": "77.221550"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 162,
+  "fields": {
+    "destination": 17,
+    "name": "DLF Mall of India, Sector 18",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "28.501218",
+    "lng": "77.095927"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 163,
+  "fields": {
+    "destination": 17,
+    "name": "Dilli Haat, INA",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "28.622294",
+    "lng": "77.096853"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 164,
+  "fields": {
+    "destination": 17,
+    "name": "Karim's, Jama Masjid",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "28.649429",
+    "lng": "77.233741"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 165,
+  "fields": {
+    "destination": 17,
+    "name": "Select CITYWALK",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "28.527960",
+    "lng": "77.219493"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 168,
+  "fields": {
+    "destination": 18,
+    "name": "Chakkamkulangara Siva Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.949152",
+    "lng": "76.345503"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 169,
+  "fields": {
+    "destination": 18,
+    "name": "Cheranalloor Mahadeva Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "10.178293",
+    "lng": "76.471724"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 170,
+  "fields": {
+    "destination": 18,
+    "name": "Chottanikkara Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.933167",
+    "lng": "76.391417"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 171,
+  "fields": {
+    "destination": 18,
+    "name": "Cochin International Airport",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "10.153333",
+    "lng": "76.388164"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 172,
+  "fields": {
+    "destination": 18,
+    "name": "Kochi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.931194",
+    "lng": "76.267306"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 173,
+  "fields": {
+    "destination": 18,
+    "name": "Kodungallur Sree Kurumba Bhagavathy Temple",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "10.226833",
+    "lng": "76.198425"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 174,
+  "fields": {
+    "destination": 18,
+    "name": "Paradesi Synagogue",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.957222",
+    "lng": "76.259444"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 175,
+  "fields": {
+    "destination": 18,
+    "name": "Thrippunithura",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.943889",
+    "lng": "76.349444"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 176,
+  "fields": {
+    "destination": 18,
+    "name": "Church of Saint Francis, Kochi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.965945",
+    "lng": "76.241102"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 177,
+  "fields": {
+    "destination": 18,
+    "name": "Fort Kochi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.965800",
+    "lng": "76.242100"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 178,
+  "fields": {
+    "destination": 18,
+    "name": "Kerala",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "10.000000",
+    "lng": "76.300000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 179,
+  "fields": {
+    "destination": 18,
+    "name": "Mattancherry Palace",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.958000",
+    "lng": "76.259000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 180,
+  "fields": {
+    "destination": 18,
+    "name": "Santa Cruz Cathedral Basilica, Kochi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.965000",
+    "lng": "76.243000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 181,
+  "fields": {
+    "destination": 18,
+    "name": "Hill Palace, Kochi",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.952639",
+    "lng": "76.364167"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 182,
+  "fields": {
+    "destination": 18,
+    "name": "Mattancherry",
+    "category": "landmark",
+    "avg_cost": "15.00",
+    "lat": "9.962500",
+    "lng": "76.254167"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 183,
+  "fields": {
+    "destination": 18,
+    "name": "Pizza Hut",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.967680",
+    "lng": "76.244542"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 184,
+  "fields": {
+    "destination": 18,
+    "name": "Express",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.968140",
+    "lng": "76.244527"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 185,
+  "fields": {
+    "destination": 18,
+    "name": "Annapurna",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.967551",
+    "lng": "76.244559"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 186,
+  "fields": {
+    "destination": 18,
+    "name": "The Salty Squid",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.967051",
+    "lng": "76.244456"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 187,
+  "fields": {
+    "destination": 18,
+    "name": "Marina",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.968763",
+    "lng": "76.244647"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 188,
+  "fields": {
+    "destination": 18,
+    "name": "Samridhi@kochi",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.968761",
+    "lng": "76.244752"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 189,
+  "fields": {
+    "destination": 18,
+    "name": "Hotel Cochin Fort",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.968017",
+    "lng": "76.245473"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 190,
+  "fields": {
+    "destination": 18,
+    "name": "History Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.968382",
+    "lng": "76.245428"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 191,
+  "fields": {
+    "destination": 18,
+    "name": "Salt and Pepper",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.967182",
+    "lng": "76.243424"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 192,
+  "fields": {
+    "destination": 18,
+    "name": "Armoury",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.968746",
+    "lng": "76.245412"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 193,
+  "fields": {
+    "destination": 18,
+    "name": "Pizza Italia",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.967213",
+    "lng": "76.243343"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 194,
+  "fields": {
+    "destination": 18,
+    "name": "Cafe Cuba",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.967202",
+    "lng": "76.243254"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 195,
+  "fields": {
+    "destination": 18,
+    "name": "Kerala Cafe",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.967218",
+    "lng": "76.243155"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 196,
+  "fields": {
+    "destination": 18,
+    "name": "Casa Linda",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.966658",
+    "lng": "76.245569"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 197,
+  "fields": {
+    "destination": 18,
+    "name": "Cultural Coconut",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.967060",
+    "lng": "76.242872"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 198,
+  "fields": {
+    "destination": 18,
+    "name": "Engineers' Mess",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.944465",
+    "lng": "76.285166"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 199,
+  "fields": {
+    "destination": 18,
+    "name": "Pure Veg Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "10.081900",
+    "lng": "76.339547"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 200,
+  "fields": {
+    "destination": 18,
+    "name": "Coriander Veg Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.964315",
+    "lng": "76.239092"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 201,
+  "fields": {
+    "destination": 18,
+    "name": "Pumpkin Veg Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.964284",
+    "lng": "76.245311"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 202,
+  "fields": {
+    "destination": 18,
+    "name": "Vrindhavan Pure Veg Restaurant",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "10.148834",
+    "lng": "76.226819"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 203,
+  "fields": {
+    "destination": 18,
+    "name": "B for Biryani Kochi.",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.962840",
+    "lng": "76.254691"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 204,
+  "fields": {
+    "destination": 18,
+    "name": "Kayees Biryani, Mattancherry",
+    "category": "food",
+    "avg_cost": "20.00",
+    "lat": "9.962753",
+    "lng": "76.254702"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 205,
+  "fields": {
+    "destination": 18,
+    "name": "Friends Cafe",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.967392",
+    "lng": "76.244551"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 206,
+  "fields": {
+    "destination": 18,
+    "name": "Qissa",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.967364",
+    "lng": "76.244523"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 207,
+  "fields": {
+    "destination": 18,
+    "name": "VOC Gate Cafe",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.967173",
+    "lng": "76.243508"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 208,
+  "fields": {
+    "destination": 18,
+    "name": "Kale N Kochi",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.967225",
+    "lng": "76.243098"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 209,
+  "fields": {
+    "destination": 18,
+    "name": "Tea Story",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.966212",
+    "lng": "76.244468"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 210,
+  "fields": {
+    "destination": 18,
+    "name": "Café Kudumbashree",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.966781",
+    "lng": "76.245881"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 211,
+  "fields": {
+    "destination": 18,
+    "name": "Kashi Art Cafe",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.966641",
+    "lng": "76.243026"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 212,
+  "fields": {
+    "destination": 18,
+    "name": "Oys cafe",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.966557",
+    "lng": "76.242835"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 213,
+  "fields": {
+    "destination": 18,
+    "name": "Leman",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.966373",
+    "lng": "76.242344"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 214,
+  "fields": {
+    "destination": 18,
+    "name": "Trouvaille",
+    "category": "food",
+    "avg_cost": "10.00",
+    "lat": "9.966182",
+    "lng": "76.242375"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 215,
+  "fields": {
+    "destination": 18,
+    "name": "Bazaar Road",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.965319",
+    "lng": "76.254601"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 216,
+  "fields": {
+    "destination": 18,
+    "name": "Happy Bazaar - Happy Homes No. 6",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "10.003009",
+    "lng": "76.348428"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 217,
+  "fields": {
+    "destination": 18,
+    "name": "Fashion Big Bazaar",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "10.003676",
+    "lng": "76.309061"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 218,
+  "fields": {
+    "destination": 18,
+    "name": "Sree Lakshmi bazaar",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.957933",
+    "lng": "76.255706"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 219,
+  "fields": {
+    "destination": 18,
+    "name": "Chai Bazaar",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "10.154778",
+    "lng": "76.390021"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 220,
+  "fields": {
+    "destination": 18,
+    "name": "Q-Bazaar",
+    "category": "culture",
+    "avg_cost": "10.00",
+    "lat": "9.911120",
+    "lng": "76.279747"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 221,
+  "fields": {
+    "destination": 18,
+    "name": "Arrival and hotel check-in in central Cochin",
+    "category": "attraction",
+    "avg_cost": "35.00",
+    "lat": "9.969184",
+    "lng": "76.238588"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 222,
+  "fields": {
+    "destination": 18,
+    "name": "Final hotel checkout and departure transfer from Cochin",
+    "category": "attraction",
+    "avg_cost": "20.00",
+    "lat": "9.966443",
+    "lng": "76.255922"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 223,
+  "fields": {
+    "destination": 18,
+    "name": "Mangalavanam Bird Sanctuary",
+    "category": "attraction",
+    "avg_cost": "2.00",
+    "lat": "9.986600",
+    "lng": "76.275000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 224,
+  "fields": {
+    "destination": 18,
+    "name": "Grand Hotel Restaurant",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "9.969800",
+    "lng": "76.287200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 225,
+  "fields": {
+    "destination": 18,
+    "name": "Ernakulam Boat Jetty",
+    "category": "attraction",
+    "avg_cost": "1.00",
+    "lat": "9.970400",
+    "lng": "76.277800"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 226,
+  "fields": {
+    "destination": 18,
+    "name": "Kumbalangi Integrated Tourism Village",
+    "category": "attraction",
+    "avg_cost": "20.00",
+    "lat": "9.873200",
+    "lng": "76.285400"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 227,
+  "fields": {
+    "destination": 18,
+    "name": "Kadamakkudy Kayaking Point",
+    "category": "attraction",
+    "avg_cost": "25.00",
+    "lat": "10.054500",
+    "lng": "76.237200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 228,
+  "fields": {
+    "destination": 18,
+    "name": "Kadamakkudy Toddy Parlour",
+    "category": "attraction",
+    "avg_cost": "12.00",
+    "lat": "10.052000",
+    "lng": "76.241000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 229,
+  "fields": {
+    "destination": 18,
+    "name": "Pizhala-Kadamakkudy Island Trail",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "10.048000",
+    "lng": "76.248000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 230,
+  "fields": {
+    "destination": 18,
+    "name": "Kayees Rahmathulla Hotel",
+    "category": "attraction",
+    "avg_cost": "10.00",
+    "lat": "9.957600",
+    "lng": "76.258200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 231,
+  "fields": {
+    "destination": 18,
+    "name": "Bhoothathankettu Reserve Forest Trail",
+    "category": "attraction",
+    "avg_cost": "8.00",
+    "lat": "10.134500",
+    "lng": "76.666400"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 232,
+  "fields": {
+    "destination": 18,
+    "name": "Periyar Valley Riverside Restaurant",
+    "category": "attraction",
+    "avg_cost": "7.00",
+    "lat": "10.138000",
+    "lng": "76.662000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 233,
+  "fields": {
+    "destination": 18,
+    "name": "Thattekad Salim Ali Bird Sanctuary",
+    "category": "attraction",
+    "avg_cost": "18.00",
+    "lat": "10.131000",
+    "lng": "76.691700"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 234,
+  "fields": {
+    "destination": 18,
+    "name": "Paragon Restaurant Lulu",
+    "category": "attraction",
+    "avg_cost": "14.00",
+    "lat": "10.028400",
+    "lng": "76.308200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 235,
+  "fields": {
+    "destination": 18,
+    "name": "Punnamada Backwater Jetty",
+    "category": "attraction",
+    "avg_cost": "30.00",
+    "lat": "9.508500",
+    "lng": "76.347500"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 236,
+  "fields": {
+    "destination": 18,
+    "name": "Marari Beach Coastal Shack",
+    "category": "attraction",
+    "avg_cost": "16.00",
+    "lat": "9.601500",
+    "lng": "76.297400"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 237,
+  "fields": {
+    "destination": 18,
+    "name": "Marari Beach Trail",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "9.598000",
+    "lng": "76.294000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 238,
+  "fields": {
+    "destination": 19,
+    "name": "Sree Annapoorna Sree Gowrishankar, RS Puram",
+    "category": "attraction",
+    "avg_cost": "5.00",
+    "lat": "11.008400",
+    "lng": "76.948600"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 239,
+  "fields": {
+    "destination": 19,
+    "name": "Brookefields Mall",
+    "category": "attraction",
+    "avg_cost": "30.00",
+    "lat": "11.007600",
+    "lng": "76.957200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 240,
+  "fields": {
+    "destination": 19,
+    "name": "Haribhavanam Restaurant, Gandhipuram",
+    "category": "attraction",
+    "avg_cost": "12.00",
+    "lat": "11.018200",
+    "lng": "76.966400"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 241,
+  "fields": {
+    "destination": 19,
+    "name": "Valankulam Lake Promenade",
+    "category": "attraction",
+    "avg_cost": "2.00",
+    "lat": "10.993400",
+    "lng": "76.968900"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 242,
+  "fields": {
+    "destination": 19,
+    "name": "Aasife Biriyani & Cafe, Saravanampatti",
+    "category": "attraction",
+    "avg_cost": "4.00",
+    "lat": "11.060100",
+    "lng": "76.995300"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 243,
+  "fields": {
+    "destination": 19,
+    "name": "Prozone Mall Coimbatore",
+    "category": "attraction",
+    "avg_cost": "35.00",
+    "lat": "11.055800",
+    "lng": "76.994200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 244,
+  "fields": {
+    "destination": 19,
+    "name": "Prozone Mall Food Court",
+    "category": "attraction",
+    "avg_cost": "10.00",
+    "lat": "11.055800",
+    "lng": "76.994200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 245,
+  "fields": {
+    "destination": 19,
+    "name": "INNO8 & Fun Unlimited at Prozone Mall",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "11.055900",
+    "lng": "76.994500"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 246,
+  "fields": {
+    "destination": 19,
+    "name": "Fun Republic Mall, Peelamedu",
+    "category": "attraction",
+    "avg_cost": "20.00",
+    "lat": "11.024400",
+    "lng": "77.002900"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 247,
+  "fields": {
+    "destination": 19,
+    "name": "Junior Kuppanna, Peelamedu",
+    "category": "attraction",
+    "avg_cost": "12.00",
+    "lat": "11.026100",
+    "lng": "77.001800"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 248,
+  "fields": {
+    "destination": 19,
+    "name": "Race Course Walking Track",
+    "category": "attraction",
+    "avg_cost": "6.00",
+    "lat": "11.003100",
+    "lng": "76.974400"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 249,
+  "fields": {
+    "destination": 19,
+    "name": "Race Course Road Eateries",
+    "category": "attraction",
+    "avg_cost": "4.00",
+    "lat": "11.004200",
+    "lng": "76.972900"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 250,
+  "fields": {
+    "destination": 19,
+    "name": "Lakshmi Mills Urban Centre",
+    "category": "attraction",
+    "avg_cost": "25.00",
+    "lat": "11.011800",
+    "lng": "76.985600"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 251,
+  "fields": {
+    "destination": 19,
+    "name": "Annalakshmi Restaurant, Race Course",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "11.005500",
+    "lng": "76.976800"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 252,
+  "fields": {
+    "destination": 19,
+    "name": "Cross-Cut Road Shopping Hub, Gandhipuram",
+    "category": "attraction",
+    "avg_cost": "30.00",
+    "lat": "11.017500",
+    "lng": "76.963200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 253,
+  "fields": {
+    "destination": 19,
+    "name": "Adiyogi Shiva Statue, Isha Yoga Center",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "10.972500",
+    "lng": "76.740500"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 254,
+  "fields": {
+    "destination": 19,
+    "name": "Moondram Pirai Restaurant, Isha Yoga Center",
+    "category": "attraction",
+    "avg_cost": "6.00",
+    "lat": "10.976200",
+    "lng": "76.735200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 255,
+  "fields": {
+    "destination": 19,
+    "name": "Velan Kaapi & Mess, RS Puram",
+    "category": "attraction",
+    "avg_cost": "8.00",
+    "lat": "11.009800",
+    "lng": "76.950200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 256,
+  "fields": {
+    "destination": 19,
+    "name": "Sri Krishna Sweets, Gandhipuram",
+    "category": "attraction",
+    "avg_cost": "12.00",
+    "lat": "11.018900",
+    "lng": "76.964700"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 257,
+  "fields": {
+    "destination": 19,
+    "name": "Broadway Cinemas & Mall, Avinashi Road",
+    "category": "attraction",
+    "avg_cost": "25.00",
+    "lat": "11.042100",
+    "lng": "77.039200"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 258,
+  "fields": {
+    "destination": 19,
+    "name": "Kovai Alankar Vilas, Ram Nagar",
+    "category": "attraction",
+    "avg_cost": "14.00",
+    "lat": "11.013500",
+    "lng": "76.962100"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 259,
+  "fields": {
+    "destination": 19,
+    "name": "The French Door Cafe, RS Puram",
+    "category": "attraction",
+    "avg_cost": "8.00",
+    "lat": "11.010700",
+    "lng": "76.944900"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 260,
+  "fields": {
+    "destination": 14,
+    "name": "Murugan Idli Shop, West Masi Street",
+    "category": "attraction",
+    "avg_cost": "4.00",
+    "lat": "9.919500",
+    "lng": "78.119300"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 261,
+  "fields": {
+    "destination": 14,
+    "name": "Famous Jigarthanda Stall, East Marret Street",
+    "category": "attraction",
+    "avg_cost": "1.50",
+    "lat": "9.918000",
+    "lng": "78.125000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 262,
+  "fields": {
+    "destination": 14,
+    "name": "Pudhu Mandapam",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "9.918900",
+    "lng": "78.121500"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 263,
+  "fields": {
+    "destination": 14,
+    "name": "Hotel Sree Sabarees",
+    "category": "attraction",
+    "avg_cost": "6.00",
+    "lat": "9.921200",
+    "lng": "78.114700"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 264,
+  "fields": {
+    "destination": 14,
+    "name": "Simmakkal Konar Mess",
+    "category": "attraction",
+    "avg_cost": "8.00",
+    "lat": "9.920800",
+    "lng": "78.118700"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 265,
+  "fields": {
+    "destination": 14,
+    "name": "Amma Mess",
+    "category": "attraction",
+    "avg_cost": "9.00",
+    "lat": "9.932400",
+    "lng": "78.137800"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 266,
+  "fields": {
+    "destination": 14,
+    "name": "Simmakkal Street Food Quarter",
+    "category": "attraction",
+    "avg_cost": "5.00",
+    "lat": "9.927200",
+    "lng": "78.122100"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 267,
+  "fields": {
+    "destination": 14,
+    "name": "South Masi Street Heritage Market",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "9.916100",
+    "lng": "78.116600"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 268,
+  "fields": {
+    "destination": 14,
+    "name": "Vandiyur Mariamman Teppakulam",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "9.913300",
+    "lng": "78.150700"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 269,
+  "fields": {
+    "destination": 14,
+    "name": "New Arya Bhavan",
+    "category": "attraction",
+    "avg_cost": "3.50",
+    "lat": "9.917500",
+    "lng": "78.120000"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 270,
+  "fields": {
+    "destination": 14,
+    "name": "St. Mary's Cathedral Church",
+    "category": "attraction",
+    "avg_cost": "15.00",
+    "lat": "9.914200",
+    "lng": "78.132500"
+  }
+},
+{
+  "model": "trips.attraction",
+  "pk": 271,
+  "fields": {
+    "destination": 14,
+    "name": "Prema Vilas Lala Sweet Stall, Town Hall Road",
+    "category": "attraction",
+    "avg_cost": "10.00",
+    "lat": "9.917800",
+    "lng": "78.116800"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 7,
+    "title": "Swiss Glacier Scenic Rails",
+    "start_date": "2026-11-17",
+    "end_date": "2026-11-23",
+    "status": "active",
+    "prompt_text": "i would like the visit the water falls near in the vicinity\n "
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 4,
+    "title": "Parisian Art & Patisseries",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-22",
+    "status": "planned",
+    "prompt_text": "4 days in Paris exploring Marais art galleries, Musee d’Orsay, hidden courtyard cafes in Montmartre, and an evening Seine cruise. Budget: $2,000."
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "destination": 7,
+    "title": "Swiss Glacier Scenic Rails",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-24",
+    "status": "planned",
+    "prompt_text": "6 days alpine journey riding the Glacier Express from Zermatt to St. Moritz. Focus on panoramic train rides, Matterhorn views, alpine fondue, and cogwheel railway excursions. Budget: $4,200."
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "destination": 8,
+    "title": "Kyoto & Tokyo Blossom Route",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-26",
+    "status": "planned",
+    "prompt_text": ""
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 8,
+    "title": "Kyoto & Tokyo Blossom Route",
+    "start_date": "2026-11-18",
+    "end_date": "2026-11-25",
+    "status": "planned",
+    "prompt_text": "7-day cultural expedition through Kyoto and Tokyo. Focus on traditional tea ceremonies, Arashiyama bamboo forest, Fushimi Inari at sunrise, Tsukiji food market, and boutique ryokans. Budget: $3,500."
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 13,
+    "title": "JJOI",
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-30",
+    "status": "planned",
+    "prompt_text": "i wanted to go to vellore kitchen"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 14,
+    "title": "Madurai",
+    "start_date": "2026-10-20",
+    "end_date": "2026-10-28",
+    "status": "planned",
+    "prompt_text": "I want to visit meenatchi amman temple in day 1 and eat good parotta in day 2"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 28,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 15,
+    "title": "ch",
+    "start_date": "2026-10-20",
+    "end_date": "2026-10-23",
+    "status": "planned",
+    "prompt_text": "Marina beach in day 1 and a popular restaurant in day 2\n"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 29,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 16,
+    "title": "Delhi",
+    "start_date": "2026-10-20",
+    "end_date": "2026-10-24",
+    "status": "planned",
+    "prompt_text": "I want to visit interesting places in Delhi and would like to go the biggest mall present there."
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 30,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 18,
+    "title": "Cochin",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-24",
+    "status": "planned",
+    "prompt_text": "I want to interact with nature,i like hiking and eating unique foods and would love to ride boats"
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 31,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "destination": 19,
+    "title": "Coimbatpre",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-26",
+    "status": "planned",
+    "prompt_text": "I like going to malls i would like to go to the biggest malls in coimbatore and eat ethnic food there."
+  }
+},
+{
+  "model": "trips.trip",
+  "pk": 32,
+  "fields": {
+    "user": [
+      "icewalker2737@gmail.com"
+    ],
+    "destination": 14,
+    "title": "Madurai",
+    "start_date": "2026-10-21",
+    "end_date": "2026-10-25",
+    "status": "planned",
+    "prompt_text": "I would like to go to the meenatchi amman temple and eat ethnic food there"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 27,
+  "fields": {
+    "trip": 16,
+    "day_number": 1,
+    "summary": "Arrival, Check-in & Orientation in Paris"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 28,
+  "fields": {
+    "trip": 16,
+    "day_number": 2,
+    "summary": "Iconic Landmarks & Cultural Highlights of Paris"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 29,
+  "fields": {
+    "trip": 16,
+    "day_number": 3,
+    "summary": "Hidden Gems & Local Neighborhoods in Paris"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 30,
+  "fields": {
+    "trip": 16,
+    "day_number": 4,
+    "summary": "Day Excursions & Outdoor Adventures around Paris"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 31,
+  "fields": {
+    "trip": 16,
+    "day_number": 5,
+    "summary": "Farewell Morning & Departure from Paris"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 32,
+  "fields": {
+    "trip": 6,
+    "day_number": 1,
+    "summary": "Arrival, Check-in & Orientation in Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 33,
+  "fields": {
+    "trip": 6,
+    "day_number": 2,
+    "summary": "Iconic Landmarks & Cultural Highlights of Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 34,
+  "fields": {
+    "trip": 6,
+    "day_number": 3,
+    "summary": "Hidden Gems & Local Neighborhoods in Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 35,
+  "fields": {
+    "trip": 6,
+    "day_number": 4,
+    "summary": "Day Excursions & Outdoor Adventures around Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 36,
+  "fields": {
+    "trip": 6,
+    "day_number": 5,
+    "summary": "Day Excursions & Outdoor Adventures around Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 37,
+  "fields": {
+    "trip": 6,
+    "day_number": 6,
+    "summary": "Day Excursions & Outdoor Adventures around Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 38,
+  "fields": {
+    "trip": 6,
+    "day_number": 7,
+    "summary": "Farewell Morning & Departure from Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 85,
+  "fields": {
+    "trip": 23,
+    "day_number": 1,
+    "summary": "Arrival, Check-in & Orientation in Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 86,
+  "fields": {
+    "trip": 23,
+    "day_number": 2,
+    "summary": "Glacier Express Scenic Train & Summit Viewpoints"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 87,
+  "fields": {
+    "trip": 23,
+    "day_number": 3,
+    "summary": "Swiss Chocolatiers, Cheese Cellars & Fondue Dining"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 88,
+  "fields": {
+    "trip": 23,
+    "day_number": 4,
+    "summary": "Alpine Vistas & Iconic Mountain Highlights of Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 89,
+  "fields": {
+    "trip": 23,
+    "day_number": 5,
+    "summary": "Hidden Gems, Old Town & Artisan Boutiques in Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 90,
+  "fields": {
+    "trip": 23,
+    "day_number": 6,
+    "summary": "Valley Stream Trails & High Alpine Pastures in Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 91,
+  "fields": {
+    "trip": 23,
+    "day_number": 7,
+    "summary": "Farewell Morning & Departure from Zermatt"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 92,
+  "fields": {
+    "trip": 25,
+    "day_number": 1,
+    "summary": "Arrival, Check-in & Orientation in Kyoto"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 93,
+  "fields": {
+    "trip": 25,
+    "day_number": 2,
+    "summary": "Swiss Chocolatiers, Cheese Cellars & Fondue Dining"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 94,
+  "fields": {
+    "trip": 25,
+    "day_number": 3,
+    "summary": "Alpine Vistas & Iconic Mountain Highlights of Kyoto"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 95,
+  "fields": {
+    "trip": 25,
+    "day_number": 4,
+    "summary": "Hidden Gems, Old Town & Artisan Boutiques in Kyoto"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 96,
+  "fields": {
+    "trip": 25,
+    "day_number": 5,
+    "summary": "Valley Stream Trails & High Alpine Pastures in Kyoto"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 97,
+  "fields": {
+    "trip": 25,
+    "day_number": 6,
+    "summary": "Thermal Mineral Wellness & Relaxation in Kyoto"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 98,
+  "fields": {
+    "trip": 25,
+    "day_number": 7,
+    "summary": "Alpine Vistas & Iconic Mountain Highlights of Kyoto"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 99,
+  "fields": {
+    "trip": 25,
+    "day_number": 8,
+    "summary": "Farewell Morning & Departure from Kyoto"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 112,
+  "fields": {
+    "trip": 26,
+    "day_number": 1,
+    "summary": "Arrival, Check-in & Orientation in VELLORE"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 113,
+  "fields": {
+    "trip": 26,
+    "day_number": 2,
+    "summary": "Jalakandeswarar Temple, Vellore & Cultural Heritage of VELLORE"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 114,
+  "fields": {
+    "trip": 26,
+    "day_number": 3,
+    "summary": "Farewell Morning & Departure from VELLORE"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 124,
+  "fields": {
+    "trip": 28,
+    "day_number": 1,
+    "summary": "Arrival, Check-in & Orientation in Chennai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 125,
+  "fields": {
+    "trip": 28,
+    "day_number": 2,
+    "summary": "Temple & Cultural Heritage of Chennai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 126,
+  "fields": {
+    "trip": 28,
+    "day_number": 3,
+    "summary": "Chennai Park & Cultural Heritage of Chennai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 127,
+  "fields": {
+    "trip": 28,
+    "day_number": 4,
+    "summary": "Farewell Morning & Departure from Chennai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 128,
+  "fields": {
+    "trip": 27,
+    "day_number": 1,
+    "summary": "Arrival & Exploration of Meenakshi Temple"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 129,
+  "fields": {
+    "trip": 27,
+    "day_number": 2,
+    "summary": "Thirumalai Nayakkar Mahal & Cultural Heritage of Madurai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 130,
+  "fields": {
+    "trip": 27,
+    "day_number": 3,
+    "summary": "Gandhi Memorial Museum & Cultural Heritage of Madurai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 131,
+  "fields": {
+    "trip": 27,
+    "day_number": 4,
+    "summary": "Koodal Azhagar Temple & Cultural Heritage of Madurai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 132,
+  "fields": {
+    "trip": 27,
+    "day_number": 5,
+    "summary": "Narasingam Yoga Narasimha Perumal Temple & Cultural Heritage of Madurai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 133,
+  "fields": {
+    "trip": 27,
+    "day_number": 6,
+    "summary": "Thirumohoor Kalamegaperumal temple & Cultural Heritage of Madurai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 134,
+  "fields": {
+    "trip": 27,
+    "day_number": 7,
+    "summary": "Madurai Vegetarian Restaurant & Cultural Heritage of Madurai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 135,
+  "fields": {
+    "trip": 27,
+    "day_number": 8,
+    "summary": "Kutladampatti Falls & Cultural Heritage of Madurai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 136,
+  "fields": {
+    "trip": 27,
+    "day_number": 9,
+    "summary": "Farewell Morning & Departure from Madurai"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 137,
+  "fields": {
+    "trip": 29,
+    "day_number": 1,
+    "summary": "Arrival & Exploration of Chhatarpur Temple"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 138,
+  "fields": {
+    "trip": 29,
+    "day_number": 2,
+    "summary": "Hanuman Temple, Connaught Place & Cultural Heritage of New Delhi"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 139,
+  "fields": {
+    "trip": 29,
+    "day_number": 3,
+    "summary": "Jagannath Temple, Delhi & Cultural Heritage of New Delhi"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 140,
+  "fields": {
+    "trip": 29,
+    "day_number": 4,
+    "summary": "Lotus Temple & Cultural Heritage of New Delhi"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 141,
+  "fields": {
+    "trip": 29,
+    "day_number": 5,
+    "summary": "Farewell Morning & Departure from New Delhi"
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 147,
+  "fields": {
+    "trip": 30,
+    "day_number": 1,
+    "summary": "Immerse yourself in Kochi's coastal ecology with mangrove trail exploration, harbor ferry crossings, and authentic Malabari seafood feasts."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 148,
+  "fields": {
+    "trip": 30,
+    "day_number": 2,
+    "summary": "Paddle through serene archipelago backwaters, trek quiet island bunds, and taste fiery culinary delicacies at a traditional toddy shop."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 149,
+  "fields": {
+    "trip": 30,
+    "day_number": 3,
+    "summary": "Venture into the lush Western Ghat foothills for riverbank jungle hiking, rainforest birding, and bamboo rafting on the Periyar River."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 150,
+  "fields": {
+    "trip": 30,
+    "day_number": 4,
+    "summary": "Glance across Vembanad Lake on a wooden Shikara boat, walk secluded palm-fringed coastlines, and savor street-side sunset tea bites."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 151,
+  "fields": {
+    "trip": 31,
+    "day_number": 1,
+    "summary": "Kick off the Coimbatore journey exploring Brookefields Mall, shopping top retail brands, and savoring classic Kongunadu specialties."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 152,
+  "fields": {
+    "trip": 31,
+    "day_number": 2,
+    "summary": "Spend a full day exploring Prozone Mall, one of South India's largest horizontal shopping destinations, sampling ethnic regional bites."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 153,
+  "fields": {
+    "trip": 31,
+    "day_number": 3,
+    "summary": "Discover Peelamedu's premier entertainment hub at Fun Republic Mall followed by authentic Tamil banana leaf dining."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 154,
+  "fields": {
+    "trip": 31,
+    "day_number": 4,
+    "summary": "Dive into the upscale boutique retail atmosphere at Lakshmi Mills Urban Centre and traditional high-street silk bazaars."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 155,
+  "fields": {
+    "trip": 31,
+    "day_number": 5,
+    "summary": "Experience the majestic cultural roots of Coimbatore at the foot of Velliangiri Hills followed by mall dining delights."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 156,
+  "fields": {
+    "trip": 31,
+    "day_number": 6,
+    "summary": "Wrap up your trip visiting iconic local sweet shops, souvenir shopping, and enjoying a farewell feast at Coimbatore's top lifestyle district."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 157,
+  "fields": {
+    "trip": 32,
+    "day_number": 1,
+    "summary": "Step straight into the cultural heart of Madurai with iconic street tiffin, regal Nayak architecture, and your first atmospheric visit to Meenakshi Amman Temple."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 158,
+  "fields": {
+    "trip": 32,
+    "day_number": 2,
+    "summary": "Dedicate a full day to spiritual temple corridors, vibrant tailor bazaars, and Madurai's world-famous spiced culinary delicacies."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 159,
+  "fields": {
+    "trip": 32,
+    "day_number": 3,
+    "summary": "Venture to ancient rock-cut cave shrines, learn about freedom heritage, and dive into authentic regional meat and gravy traditions."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 160,
+  "fields": {
+    "trip": 32,
+    "day_number": 4,
+    "summary": "Ascend into the lush Alagar Hills to sample the sacred deep-fried temple dosai and wander historic craft quarters."
+  }
+},
+{
+  "model": "trips.itineraryday",
+  "pk": 161,
+  "fields": {
+    "trip": 32,
+    "day_number": 5,
+    "summary": "Reflect by Madurai's vast temple reservoir, admire gothic cathedral architecture, and pack authentic local confections for home."
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 102,
+  "fields": {
+    "day": 27,
+    "attraction": null,
+    "title": "Welcome lunch at traditional Paris bistro",
+    "start_time": "13:00:00",
+    "est_cost": "45.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 103,
+  "fields": {
+    "day": 27,
+    "attraction": null,
+    "title": "Afternoon promenade and scenic architectural walk",
+    "start_time": "15:30:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 104,
+  "fields": {
+    "day": 27,
+    "attraction": null,
+    "title": "Sunset dinner and local orientation briefing",
+    "start_time": "19:30:00",
+    "est_cost": "60.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 105,
+  "fields": {
+    "day": 28,
+    "attraction": null,
+    "title": "Morning visit to premier monuments and landmarks in Paris",
+    "start_time": "09:30:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 106,
+  "fields": {
+    "day": 28,
+    "attraction": null,
+    "title": "Artisanal food hall lunch tasting local specialties",
+    "start_time": "12:30:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 107,
+  "fields": {
+    "day": 28,
+    "attraction": null,
+    "title": "Guided museum and historical heritage walk",
+    "start_time": "15:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 108,
+  "fields": {
+    "day": 28,
+    "attraction": null,
+    "title": "Evening dinner reservation overlooking the illuminated city",
+    "start_time": "19:30:00",
+    "est_cost": "65.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 109,
+  "fields": {
+    "day": 29,
+    "attraction": null,
+    "title": "Boutique artisan quarter exploration and courtyard cafes",
+    "start_time": "10:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 110,
+  "fields": {
+    "day": 29,
+    "attraction": null,
+    "title": "Regional farm-to-table lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 111,
+  "fields": {
+    "day": 29,
+    "attraction": null,
+    "title": "Scenic river/waterfront cruise or scenic cable car",
+    "start_time": "15:30:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 112,
+  "fields": {
+    "day": 29,
+    "attraction": null,
+    "title": "Live acoustic music and dinner at heritage tavern",
+    "start_time": "20:00:00",
+    "est_cost": "60.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 113,
+  "fields": {
+    "day": 30,
+    "attraction": null,
+    "title": "Day trip excursion to surrounding nature reserves",
+    "start_time": "09:00:00",
+    "est_cost": "50.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 114,
+  "fields": {
+    "day": 30,
+    "attraction": null,
+    "title": "Rustic country lunch with picturesque vistas",
+    "start_time": "13:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 115,
+  "fields": {
+    "day": 30,
+    "attraction": null,
+    "title": "Local craft workshops and leisurely exploration",
+    "start_time": "16:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 116,
+  "fields": {
+    "day": 30,
+    "attraction": null,
+    "title": "Celebratory evening dinner and local dessert tasting",
+    "start_time": "19:30:00",
+    "est_cost": "65.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 117,
+  "fields": {
+    "day": 31,
+    "attraction": null,
+    "title": "Leisurely breakfast and souvenir shopping in old town",
+    "start_time": "09:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 118,
+  "fields": {
+    "day": 31,
+    "attraction": null,
+    "title": "Final panoramic viewpoint photos and checkout",
+    "start_time": "12:00:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 119,
+  "fields": {
+    "day": 31,
+    "attraction": null,
+    "title": "Airport/station scenic transfer for departure",
+    "start_time": "14:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 121,
+  "fields": {
+    "day": 32,
+    "attraction": null,
+    "title": "Welcome lunch at traditional Zermatt bistro",
+    "start_time": "13:00:00",
+    "est_cost": "45.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 122,
+  "fields": {
+    "day": 32,
+    "attraction": null,
+    "title": "Afternoon promenade and scenic architectural walk",
+    "start_time": "15:30:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 123,
+  "fields": {
+    "day": 32,
+    "attraction": null,
+    "title": "Sunset dinner and local orientation briefing",
+    "start_time": "19:30:00",
+    "est_cost": "60.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 124,
+  "fields": {
+    "day": 33,
+    "attraction": null,
+    "title": "Morning visit to premier monuments and landmarks in Zermatt",
+    "start_time": "09:30:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 125,
+  "fields": {
+    "day": 33,
+    "attraction": null,
+    "title": "Artisanal food hall lunch tasting local specialties",
+    "start_time": "12:30:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 126,
+  "fields": {
+    "day": 33,
+    "attraction": null,
+    "title": "Guided museum and historical heritage walk",
+    "start_time": "15:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 127,
+  "fields": {
+    "day": 33,
+    "attraction": null,
+    "title": "Evening dinner reservation overlooking the illuminated city",
+    "start_time": "19:30:00",
+    "est_cost": "65.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 128,
+  "fields": {
+    "day": 34,
+    "attraction": null,
+    "title": "Boutique artisan quarter exploration and courtyard cafes",
+    "start_time": "10:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 129,
+  "fields": {
+    "day": 34,
+    "attraction": null,
+    "title": "Regional farm-to-table lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 130,
+  "fields": {
+    "day": 34,
+    "attraction": null,
+    "title": "Scenic river/waterfront cruise or scenic cable car",
+    "start_time": "15:30:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 131,
+  "fields": {
+    "day": 34,
+    "attraction": null,
+    "title": "Live acoustic music and dinner at heritage tavern",
+    "start_time": "20:00:00",
+    "est_cost": "60.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 132,
+  "fields": {
+    "day": 35,
+    "attraction": null,
+    "title": "Day trip excursion to surrounding nature reserves",
+    "start_time": "09:00:00",
+    "est_cost": "50.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 133,
+  "fields": {
+    "day": 35,
+    "attraction": null,
+    "title": "Rustic country lunch with picturesque vistas",
+    "start_time": "13:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 134,
+  "fields": {
+    "day": 35,
+    "attraction": null,
+    "title": "Local craft workshops and leisurely exploration",
+    "start_time": "16:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 135,
+  "fields": {
+    "day": 35,
+    "attraction": null,
+    "title": "Celebratory evening dinner and local dessert tasting",
+    "start_time": "19:30:00",
+    "est_cost": "65.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 136,
+  "fields": {
+    "day": 36,
+    "attraction": null,
+    "title": "Day trip excursion to surrounding nature reserves",
+    "start_time": "09:00:00",
+    "est_cost": "50.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 137,
+  "fields": {
+    "day": 36,
+    "attraction": null,
+    "title": "Rustic country lunch with picturesque vistas",
+    "start_time": "13:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 138,
+  "fields": {
+    "day": 36,
+    "attraction": null,
+    "title": "Local craft workshops and leisurely exploration",
+    "start_time": "16:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 139,
+  "fields": {
+    "day": 36,
+    "attraction": null,
+    "title": "Celebratory evening dinner and local dessert tasting",
+    "start_time": "19:30:00",
+    "est_cost": "65.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 140,
+  "fields": {
+    "day": 37,
+    "attraction": null,
+    "title": "Day trip excursion to surrounding nature reserves",
+    "start_time": "09:00:00",
+    "est_cost": "50.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 141,
+  "fields": {
+    "day": 37,
+    "attraction": null,
+    "title": "Rustic country lunch with picturesque vistas",
+    "start_time": "13:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 142,
+  "fields": {
+    "day": 37,
+    "attraction": null,
+    "title": "Local craft workshops and leisurely exploration",
+    "start_time": "16:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 143,
+  "fields": {
+    "day": 37,
+    "attraction": null,
+    "title": "Celebratory evening dinner and local dessert tasting",
+    "start_time": "19:30:00",
+    "est_cost": "65.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 144,
+  "fields": {
+    "day": 38,
+    "attraction": null,
+    "title": "Leisurely breakfast and souvenir shopping in old town",
+    "start_time": "09:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 145,
+  "fields": {
+    "day": 38,
+    "attraction": null,
+    "title": "Final panoramic viewpoint photos and checkout",
+    "start_time": "12:00:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 146,
+  "fields": {
+    "day": 38,
+    "attraction": null,
+    "title": "Airport/station scenic transfer for departure",
+    "start_time": "14:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 147,
+  "fields": {
+    "day": 27,
+    "attraction": null,
+    "title": "Arrival and hotel check-in in central Paris",
+    "start_time": "11:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 326,
+  "fields": {
+    "day": 85,
+    "attraction": null,
+    "title": "Arrival and hotel check-in in central Zermatt",
+    "start_time": "11:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 327,
+  "fields": {
+    "day": 85,
+    "attraction": null,
+    "title": "Welcome lunch at traditional Zermatt bistro",
+    "start_time": "13:00:00",
+    "est_cost": "45.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 328,
+  "fields": {
+    "day": 85,
+    "attraction": null,
+    "title": "Afternoon orientation stroll along the valley river",
+    "start_time": "15:30:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 329,
+  "fields": {
+    "day": 85,
+    "attraction": null,
+    "title": "Sunset dinner and holiday orientation briefing",
+    "start_time": "19:30:00",
+    "est_cost": "60.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 330,
+  "fields": {
+    "day": 86,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 331,
+  "fields": {
+    "day": 86,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 332,
+  "fields": {
+    "day": 86,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 333,
+  "fields": {
+    "day": 86,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 334,
+  "fields": {
+    "day": 87,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 335,
+  "fields": {
+    "day": 87,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 336,
+  "fields": {
+    "day": 87,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 337,
+  "fields": {
+    "day": 87,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 338,
+  "fields": {
+    "day": 88,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 339,
+  "fields": {
+    "day": 88,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 340,
+  "fields": {
+    "day": 88,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 341,
+  "fields": {
+    "day": 88,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 342,
+  "fields": {
+    "day": 89,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 343,
+  "fields": {
+    "day": 89,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 344,
+  "fields": {
+    "day": 89,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 345,
+  "fields": {
+    "day": 89,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 346,
+  "fields": {
+    "day": 90,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 347,
+  "fields": {
+    "day": 90,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 348,
+  "fields": {
+    "day": 90,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 349,
+  "fields": {
+    "day": 90,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 350,
+  "fields": {
+    "day": 91,
+    "attraction": null,
+    "title": "Leisurely breakfast and final souvenir shopping in Old Town",
+    "start_time": "09:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 351,
+  "fields": {
+    "day": 91,
+    "attraction": null,
+    "title": "Final panoramic viewpoint photos and hotel checkout",
+    "start_time": "12:00:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 352,
+  "fields": {
+    "day": 91,
+    "attraction": null,
+    "title": "Scenic departure transfer to airport/station",
+    "start_time": "14:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 353,
+  "fields": {
+    "day": 92,
+    "attraction": null,
+    "title": "Arrival and hotel check-in in central Kyoto",
+    "start_time": "11:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 354,
+  "fields": {
+    "day": 92,
+    "attraction": null,
+    "title": "Welcome lunch at traditional Kyoto bistro",
+    "start_time": "13:00:00",
+    "est_cost": "45.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 355,
+  "fields": {
+    "day": 92,
+    "attraction": null,
+    "title": "Afternoon orientation stroll along the valley river",
+    "start_time": "15:30:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 356,
+  "fields": {
+    "day": 92,
+    "attraction": null,
+    "title": "Sunset dinner and holiday orientation briefing",
+    "start_time": "19:30:00",
+    "est_cost": "60.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 357,
+  "fields": {
+    "day": 93,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 358,
+  "fields": {
+    "day": 93,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 359,
+  "fields": {
+    "day": 93,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 360,
+  "fields": {
+    "day": 93,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 361,
+  "fields": {
+    "day": 94,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 362,
+  "fields": {
+    "day": 94,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 363,
+  "fields": {
+    "day": 94,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 364,
+  "fields": {
+    "day": 94,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 365,
+  "fields": {
+    "day": 95,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 366,
+  "fields": {
+    "day": 95,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 367,
+  "fields": {
+    "day": 95,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 368,
+  "fields": {
+    "day": 95,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 369,
+  "fields": {
+    "day": 96,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 370,
+  "fields": {
+    "day": 96,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 371,
+  "fields": {
+    "day": 96,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 372,
+  "fields": {
+    "day": 96,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 373,
+  "fields": {
+    "day": 97,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 374,
+  "fields": {
+    "day": 97,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 375,
+  "fields": {
+    "day": 97,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 376,
+  "fields": {
+    "day": 97,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 377,
+  "fields": {
+    "day": 98,
+    "attraction": null,
+    "title": "Artisan chocolate atelier tour and private tasting session",
+    "start_time": "10:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 378,
+  "fields": {
+    "day": 98,
+    "attraction": null,
+    "title": "Traditional regional cheese cellar and gourmet deli lunch",
+    "start_time": "12:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 379,
+  "fields": {
+    "day": 98,
+    "attraction": null,
+    "title": "Afternoon stroll visiting local confectioners and historic bakery",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 380,
+  "fields": {
+    "day": 98,
+    "attraction": null,
+    "title": "Classic fondue and raclette feast paired with regional wines",
+    "start_time": "19:30:00",
+    "est_cost": "75.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 381,
+  "fields": {
+    "day": 99,
+    "attraction": null,
+    "title": "Leisurely breakfast and final souvenir shopping in Old Town",
+    "start_time": "09:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 382,
+  "fields": {
+    "day": 99,
+    "attraction": null,
+    "title": "Final panoramic viewpoint photos and hotel checkout",
+    "start_time": "12:00:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 383,
+  "fields": {
+    "day": 99,
+    "attraction": null,
+    "title": "Scenic departure transfer to airport/station",
+    "start_time": "14:30:00",
+    "est_cost": "40.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 430,
+  "fields": {
+    "day": 112,
+    "attraction": null,
+    "title": "Arrival and hotel check-in in central VELLORE",
+    "start_time": "11:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 431,
+  "fields": {
+    "day": 112,
+    "attraction": 13,
+    "title": "Featured Dining: Lunch experience at Vellore Kitchen",
+    "start_time": "13:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 432,
+  "fields": {
+    "day": 112,
+    "attraction": 14,
+    "title": "Afternoon exploration of Vellore Fort",
+    "start_time": "15:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 433,
+  "fields": {
+    "day": 112,
+    "attraction": null,
+    "title": "Evening stroll and dinner at lively central VELLORE market",
+    "start_time": "19:30:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 434,
+  "fields": {
+    "day": 113,
+    "attraction": 15,
+    "title": "Morning guided visit to Jalakandeswarar Temple, Vellore",
+    "start_time": "09:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 435,
+  "fields": {
+    "day": 113,
+    "attraction": null,
+    "title": "Midday lunch at popular local VELLORE restaurant",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 436,
+  "fields": {
+    "day": 113,
+    "attraction": 16,
+    "title": "Afternoon discovery tour of Sri Lakshmi Narayani Golden Temple, Sripuram",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 437,
+  "fields": {
+    "day": 113,
+    "attraction": null,
+    "title": "Relaxed evening dinner tasting regional VELLORE specialties",
+    "start_time": "19:30:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 438,
+  "fields": {
+    "day": 114,
+    "attraction": null,
+    "title": "Leisurely breakfast and final souvenir shopping in VELLORE",
+    "start_time": "09:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 439,
+  "fields": {
+    "day": 114,
+    "attraction": null,
+    "title": "Final photography walk around VELLORE center and hotel checkout",
+    "start_time": "12:00:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 440,
+  "fields": {
+    "day": 114,
+    "attraction": null,
+    "title": "Departure transfer from VELLORE station/airport",
+    "start_time": "14:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 476,
+  "fields": {
+    "day": 124,
+    "attraction": null,
+    "title": "Arrival and hotel check-in in central Chennai",
+    "start_time": "11:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 477,
+  "fields": {
+    "day": 124,
+    "attraction": null,
+    "title": "Welcome lunch sampling traditional Chennai cuisine",
+    "start_time": "13:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 478,
+  "fields": {
+    "day": 124,
+    "attraction": 25,
+    "title": "Afternoon exploration of Chennai Fort",
+    "start_time": "15:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 479,
+  "fields": {
+    "day": 124,
+    "attraction": null,
+    "title": "Evening stroll and dinner at lively central Chennai market",
+    "start_time": "19:30:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 480,
+  "fields": {
+    "day": 125,
+    "attraction": 26,
+    "title": "Morning guided visit to Temple",
+    "start_time": "09:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 481,
+  "fields": {
+    "day": 125,
+    "attraction": 29,
+    "title": "Midday lunch at popular local Chennai restaurant",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 482,
+  "fields": {
+    "day": 125,
+    "attraction": 27,
+    "title": "Afternoon discovery tour of Museum",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 483,
+  "fields": {
+    "day": 125,
+    "attraction": null,
+    "title": "Relaxed evening dinner tasting regional Chennai specialties",
+    "start_time": "19:30:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 484,
+  "fields": {
+    "day": 126,
+    "attraction": 28,
+    "title": "Morning guided visit to Chennai Park",
+    "start_time": "09:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 485,
+  "fields": {
+    "day": 126,
+    "attraction": 29,
+    "title": "Midday lunch at popular local Chennai restaurant",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 486,
+  "fields": {
+    "day": 126,
+    "attraction": 29,
+    "title": "Afternoon discovery tour of Chennai Restaurant",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 487,
+  "fields": {
+    "day": 126,
+    "attraction": null,
+    "title": "Relaxed evening dinner tasting regional Chennai specialties",
+    "start_time": "19:30:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 488,
+  "fields": {
+    "day": 127,
+    "attraction": null,
+    "title": "Leisurely breakfast and final souvenir shopping in Chennai",
+    "start_time": "09:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 489,
+  "fields": {
+    "day": 127,
+    "attraction": null,
+    "title": "Final photography walk around Chennai center and hotel checkout",
+    "start_time": "12:00:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 490,
+  "fields": {
+    "day": 127,
+    "attraction": null,
+    "title": "Departure transfer from Chennai station/airport",
+    "start_time": "14:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 491,
+  "fields": {
+    "day": 128,
+    "attraction": null,
+    "title": "Arrival and hotel check-in in central Madurai",
+    "start_time": "11:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 492,
+  "fields": {
+    "day": 128,
+    "attraction": 47,
+    "title": "Welcome lunch feast at Aasife Biriyani - Madurai (Thanakkankulam)",
+    "start_time": "13:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 493,
+  "fields": {
+    "day": 128,
+    "attraction": 33,
+    "title": "Afternoon exploration of Meenakshi Temple",
+    "start_time": "15:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 494,
+  "fields": {
+    "day": 128,
+    "attraction": 48,
+    "title": "Evening dinner experience at Bells Jumbo Restaurant",
+    "start_time": "19:30:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 495,
+  "fields": {
+    "day": 129,
+    "attraction": 38,
+    "title": "Morning guided visit to Thirumalai Nayakkar Mahal",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 496,
+  "fields": {
+    "day": 129,
+    "attraction": 49,
+    "title": "Midday culinary lunch at Shree Lakshmi Bhavan",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 497,
+  "fields": {
+    "day": 129,
+    "attraction": 42,
+    "title": "Afternoon discovery tour of Tamukkam Palace",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 498,
+  "fields": {
+    "day": 129,
+    "attraction": 92,
+    "title": "Sunset stroll & local shopping at Meenakshi Bazaar Road",
+    "start_time": "17:30:00",
+    "est_cost": "10.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 499,
+  "fields": {
+    "day": 129,
+    "attraction": 50,
+    "title": "Relaxed evening dinner reservation at Zafron",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 500,
+  "fields": {
+    "day": 130,
+    "attraction": 20,
+    "title": "Morning guided visit to Gandhi Memorial Museum",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 501,
+  "fields": {
+    "day": 130,
+    "attraction": 51,
+    "title": "Midday culinary lunch at Shrew Lakshmi Bhavan",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 502,
+  "fields": {
+    "day": 130,
+    "attraction": 30,
+    "title": "Afternoon discovery tour of Badri Narayanan temple",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 503,
+  "fields": {
+    "day": 130,
+    "attraction": 93,
+    "title": "Sunset stroll & local shopping at Big Bazaar street",
+    "start_time": "17:30:00",
+    "est_cost": "10.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 504,
+  "fields": {
+    "day": 130,
+    "attraction": 52,
+    "title": "Relaxed evening dinner reservation at Lakshmi veg & non veg hotel",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 505,
+  "fields": {
+    "day": 131,
+    "attraction": 31,
+    "title": "Morning guided visit to Koodal Azhagar Temple",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 506,
+  "fields": {
+    "day": 131,
+    "attraction": 53,
+    "title": "Midday culinary lunch at Blind Chemistry",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 507,
+  "fields": {
+    "day": 131,
+    "attraction": 34,
+    "title": "Afternoon discovery tour of Murugan Temple, Pazhamudircholai",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 508,
+  "fields": {
+    "day": 131,
+    "attraction": 94,
+    "title": "Sunset stroll & local shopping at Small Bazaar street",
+    "start_time": "17:30:00",
+    "est_cost": "10.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 509,
+  "fields": {
+    "day": 131,
+    "attraction": 54,
+    "title": "Relaxed evening dinner reservation at McDonald's",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 510,
+  "fields": {
+    "day": 132,
+    "attraction": 35,
+    "title": "Morning guided visit to Narasingam Yoga Narasimha Perumal Temple",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 511,
+  "fields": {
+    "day": 132,
+    "attraction": 55,
+    "title": "Midday culinary lunch at K G Veg Restaurant",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 512,
+  "fields": {
+    "day": 132,
+    "attraction": 36,
+    "title": "Afternoon discovery tour of Subramaniya Swamy Temple, Thiruparankundram",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 513,
+  "fields": {
+    "day": 132,
+    "attraction": 95,
+    "title": "Sunset stroll & local shopping at Madurai. Bazaar",
+    "start_time": "17:30:00",
+    "est_cost": "10.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 514,
+  "fields": {
+    "day": 132,
+    "attraction": 56,
+    "title": "Relaxed evening dinner reservation at Nanban catering",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 515,
+  "fields": {
+    "day": 133,
+    "attraction": 39,
+    "title": "Morning guided visit to Thirumohoor Kalamegaperumal temple",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 516,
+  "fields": {
+    "day": 133,
+    "attraction": 57,
+    "title": "Midday culinary lunch at Annapoorna",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 517,
+  "fields": {
+    "day": 133,
+    "attraction": 19,
+    "title": "Afternoon discovery tour of Yanaimalai",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 518,
+  "fields": {
+    "day": 133,
+    "attraction": 96,
+    "title": "Sunset stroll & local shopping at பிக் பஜார்",
+    "start_time": "17:30:00",
+    "est_cost": "10.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 519,
+  "fields": {
+    "day": 133,
+    "attraction": 58,
+    "title": "Relaxed evening dinner reservation at Kumar Mess",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 520,
+  "fields": {
+    "day": 134,
+    "attraction": 21,
+    "title": "Morning guided visit to Madurai Vegetarian Restaurant",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 521,
+  "fields": {
+    "day": 134,
+    "attraction": 59,
+    "title": "Midday culinary lunch at Gowri Krishna",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 522,
+  "fields": {
+    "day": 134,
+    "attraction": 23,
+    "title": "Afternoon discovery tour of Gandhi Ninaivu Arungatchiyagam",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 523,
+  "fields": {
+    "day": 134,
+    "attraction": 60,
+    "title": "Relaxed evening dinner reservation at Valli Lingam Chettinadu Mess",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 524,
+  "fields": {
+    "day": 135,
+    "attraction": 32,
+    "title": "Morning guided visit to Kutladampatti Falls",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 525,
+  "fields": {
+    "day": 135,
+    "attraction": 61,
+    "title": "Midday culinary lunch at SRM Mess",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 526,
+  "fields": {
+    "day": 135,
+    "attraction": 37,
+    "title": "Afternoon discovery tour of Thiru Aappanoor",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 527,
+  "fields": {
+    "day": 135,
+    "attraction": 62,
+    "title": "Relaxed evening dinner reservation at Sri Shanmuga Chettinad Mess",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 528,
+  "fields": {
+    "day": 136,
+    "attraction": 40,
+    "title": "Morning farewell visit to Karseri",
+    "start_time": "09:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 529,
+  "fields": {
+    "day": 136,
+    "attraction": 63,
+    "title": "Farewell lunch celebration at Police Mess",
+    "start_time": "12:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 530,
+  "fields": {
+    "day": 136,
+    "attraction": null,
+    "title": "Final hotel checkout and departure transfer from Madurai",
+    "start_time": "15:00:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 531,
+  "fields": {
+    "day": 137,
+    "attraction": 109,
+    "title": "Arrival and hotel check-in in central New Delhi",
+    "start_time": "11:00:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 532,
+  "fields": {
+    "day": 137,
+    "attraction": 119,
+    "title": "Welcome lunch feast at Turning Point Restaurant",
+    "start_time": "13:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 533,
+  "fields": {
+    "day": 137,
+    "attraction": 97,
+    "title": "Afternoon exploration of Chhatarpur Temple",
+    "start_time": "15:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 534,
+  "fields": {
+    "day": 137,
+    "attraction": 120,
+    "title": "Evening dinner experience at Capital Restaurant",
+    "start_time": "19:30:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 535,
+  "fields": {
+    "day": 138,
+    "attraction": 98,
+    "title": "Morning guided visit to Hanuman Temple, Connaught Place",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 536,
+  "fields": {
+    "day": 138,
+    "attraction": 121,
+    "title": "Midday culinary lunch at The Naan Corner",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 537,
+  "fields": {
+    "day": 138,
+    "attraction": 99,
+    "title": "Afternoon discovery tour of ISKCON Temple, Delhi",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 538,
+  "fields": {
+    "day": 138,
+    "attraction": 122,
+    "title": "Relaxed evening dinner reservation at Binge-ish",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 539,
+  "fields": {
+    "day": 139,
+    "attraction": 100,
+    "title": "Morning guided visit to Jagannath Temple, Delhi",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 540,
+  "fields": {
+    "day": 139,
+    "attraction": 123,
+    "title": "Midday culinary lunch at Janta Hotel",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 541,
+  "fields": {
+    "day": 139,
+    "attraction": 102,
+    "title": "Afternoon discovery tour of Laxminarayan Temple",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 542,
+  "fields": {
+    "day": 139,
+    "attraction": 124,
+    "title": "Relaxed evening dinner reservation at Nashta Nukkad",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 543,
+  "fields": {
+    "day": 140,
+    "attraction": 103,
+    "title": "Morning guided visit to Lotus Temple",
+    "start_time": "09:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 544,
+  "fields": {
+    "day": 140,
+    "attraction": 125,
+    "title": "Midday culinary lunch at Dilli' See Us",
+    "start_time": "12:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 545,
+  "fields": {
+    "day": 140,
+    "attraction": 105,
+    "title": "Afternoon discovery tour of Uttara Swami Malai Temple",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 546,
+  "fields": {
+    "day": 140,
+    "attraction": 126,
+    "title": "Relaxed evening dinner reservation at Shubham's Cookhouse",
+    "start_time": "19:45:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 547,
+  "fields": {
+    "day": 141,
+    "attraction": 106,
+    "title": "Morning farewell visit to Yogmaya Temple, Delhi",
+    "start_time": "09:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 548,
+  "fields": {
+    "day": 141,
+    "attraction": 127,
+    "title": "Farewell lunch celebration at Shahi Pakwan",
+    "start_time": "12:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 549,
+  "fields": {
+    "day": 141,
+    "attraction": 109,
+    "title": "Final hotel checkout and departure transfer from New Delhi",
+    "start_time": "15:00:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 569,
+  "fields": {
+    "day": 147,
+    "attraction": 223,
+    "title": "Mangrove birding walk in the urban wilderness",
+    "start_time": "08:30:00",
+    "est_cost": "2.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 570,
+  "fields": {
+    "day": 147,
+    "attraction": 224,
+    "title": "Feast on iconic pearl spot fish baked in banana leaves",
+    "start_time": "12:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 571,
+  "fields": {
+    "day": 147,
+    "attraction": 225,
+    "title": "Public ferry journey across the historic harbor waters",
+    "start_time": "15:00:00",
+    "est_cost": "1.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 572,
+  "fields": {
+    "day": 147,
+    "attraction": 226,
+    "title": "Handcrafted country boat drift through village mangrove canals",
+    "start_time": "16:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 573,
+  "fields": {
+    "day": 148,
+    "attraction": 227,
+    "title": "Sunrise kayak expedition across silent village wetlands",
+    "start_time": "06:30:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 574,
+  "fields": {
+    "day": 148,
+    "attraction": 228,
+    "title": "Adventurous toddy shop lunch tasting fiery crab and tapioca",
+    "start_time": "11:30:00",
+    "est_cost": "12.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 575,
+  "fields": {
+    "day": 148,
+    "attraction": 229,
+    "title": "Pedestrian hike along prawn filter fields and village bunds",
+    "start_time": "14:30:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 576,
+  "fields": {
+    "day": 148,
+    "attraction": 230,
+    "title": "Sample legendary Kochi mutton biryani cooked over firewood",
+    "start_time": "18:30:00",
+    "est_cost": "10.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 577,
+  "fields": {
+    "day": 149,
+    "attraction": 231,
+    "title": "Jungle trail trek through dense Periyar riverine forest",
+    "start_time": "08:00:00",
+    "est_cost": "8.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 578,
+  "fields": {
+    "day": 149,
+    "attraction": 232,
+    "title": "Clay-pot river fish curry and forest meals at a rustic mess",
+    "start_time": "12:30:00",
+    "est_cost": "7.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 579,
+  "fields": {
+    "day": 149,
+    "attraction": 233,
+    "title": "Canopy nature hike and bamboo rafting safari",
+    "start_time": "14:30:00",
+    "est_cost": "18.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 580,
+  "fields": {
+    "day": 149,
+    "attraction": 234,
+    "title": "Flaky Malabar parotta and tender coconut payasam dinner",
+    "start_time": "19:30:00",
+    "est_cost": "14.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 581,
+  "fields": {
+    "day": 150,
+    "attraction": 235,
+    "title": "Private open-air Shikara boat voyage across Vembanad canals",
+    "start_time": "08:30:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 582,
+  "fields": {
+    "day": 150,
+    "attraction": 236,
+    "title": "Tasting seasonal squid roast and banana flower thoran by the sea",
+    "start_time": "12:45:00",
+    "est_cost": "16.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 583,
+  "fields": {
+    "day": 150,
+    "attraction": 237,
+    "title": "Coastal dune hike and seaside flora nature walk",
+    "start_time": "15:00:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 584,
+  "fields": {
+    "day": 150,
+    "attraction": 172,
+    "title": "Harbor-view dinner pairing spiced beef roast with crispy pazham pori",
+    "start_time": "18:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 585,
+  "fields": {
+    "day": 151,
+    "attraction": 238,
+    "title": "Welcome Breakfast with Iconic Sree Annapoorna Ghee Roast Dosa",
+    "start_time": "09:30:00",
+    "est_cost": "5.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 586,
+  "fields": {
+    "day": 151,
+    "attraction": 239,
+    "title": "Retail Splurge and Fun at Brookefields Mall",
+    "start_time": "11:30:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 587,
+  "fields": {
+    "day": 151,
+    "attraction": 240,
+    "title": "Ethnic Kongunadu Feast at Haribhavanam",
+    "start_time": "14:00:00",
+    "est_cost": "12.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 588,
+  "fields": {
+    "day": 151,
+    "attraction": 241,
+    "title": "Sunset Stroll Along the Renovated Valankulam Lake Promenade",
+    "start_time": "17:30:00",
+    "est_cost": "2.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 589,
+  "fields": {
+    "day": 152,
+    "attraction": 242,
+    "title": "Traditional South Indian Filter Coffee and Vada Start",
+    "start_time": "10:00:00",
+    "est_cost": "4.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 590,
+  "fields": {
+    "day": 152,
+    "attraction": 243,
+    "title": "Endless Shopping Across Fashion Anchors at Prozone Mall",
+    "start_time": "11:30:00",
+    "est_cost": "35.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 591,
+  "fields": {
+    "day": 152,
+    "attraction": 244,
+    "title": "Tasting Regional Biryani and Chettinad Delicacies at Prozone Food Court",
+    "start_time": "14:00:00",
+    "est_cost": "10.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 592,
+  "fields": {
+    "day": 152,
+    "attraction": 245,
+    "title": "Evening Gaming, Cinema, and Local Snack Sampling",
+    "start_time": "17:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 593,
+  "fields": {
+    "day": 153,
+    "attraction": 246,
+    "title": "Leisurely Morning Window Shopping at Fun Republic Mall",
+    "start_time": "10:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 594,
+  "fields": {
+    "day": 153,
+    "attraction": 247,
+    "title": "Kongu Style Pallipalayam and Nattu Kozhi Lunch at Junior Kuppanna",
+    "start_time": "13:30:00",
+    "est_cost": "12.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 595,
+  "fields": {
+    "day": 153,
+    "attraction": 246,
+    "title": "Browsing Gadgets, Apparel, and Ethnic Handicrafts at Fun Republic",
+    "start_time": "15:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 596,
+  "fields": {
+    "day": 153,
+    "attraction": 248,
+    "title": "Twilight Walk and Street Food Treats around Race Course",
+    "start_time": "18:00:00",
+    "est_cost": "6.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 597,
+  "fields": {
+    "day": 154,
+    "attraction": 249,
+    "title": "Breakfast and Special Filter Brew at Madurai Famous Jigarthanda & Snacks",
+    "start_time": "09:30:00",
+    "est_cost": "4.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 598,
+  "fields": {
+    "day": 154,
+    "attraction": 250,
+    "title": "Boutique Retail Therapy at Lakshmi Mills Urban Centre",
+    "start_time": "11:00:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 599,
+  "fields": {
+    "day": 154,
+    "attraction": 251,
+    "title": "Gourmet Tamil Thali Lunch Experience at Annalakshmi Restaurant",
+    "start_time": "13:30:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 600,
+  "fields": {
+    "day": 154,
+    "attraction": 252,
+    "title": "Immersive Ethnic Silk and Handloom Shopping on Cross-Cut Road",
+    "start_time": "16:00:00",
+    "est_cost": "30.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 601,
+  "fields": {
+    "day": 155,
+    "attraction": 253,
+    "title": "Morning Visit to the Grand Adiyogi Shiva Statue",
+    "start_time": "08:30:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 602,
+  "fields": {
+    "day": 155,
+    "attraction": 254,
+    "title": "Pure Vegetarian Satvik Lunch at Isha Peedam Eatery",
+    "start_time": "12:30:00",
+    "est_cost": "6.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 603,
+  "fields": {
+    "day": 155,
+    "attraction": 239,
+    "title": "Afternoon Shopping and Souvenir Hunt at Brookefields Hypermarket",
+    "start_time": "15:30:00",
+    "est_cost": "20.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 604,
+  "fields": {
+    "day": 155,
+    "attraction": 255,
+    "title": "Dinner Feast of Kothu Parotta and Chettinad Curries",
+    "start_time": "19:00:00",
+    "est_cost": "8.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 605,
+  "fields": {
+    "day": 156,
+    "attraction": 256,
+    "title": "Tasting Authentic Coimbatore Ghee Mysore Pak at Sri Krishna Sweets",
+    "start_time": "10:00:00",
+    "est_cost": "12.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 606,
+  "fields": {
+    "day": 156,
+    "attraction": 257,
+    "title": "Last-Minute Shopping Spree at Broadway Mega Mall Complex",
+    "start_time": "11:45:00",
+    "est_cost": "25.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 607,
+  "fields": {
+    "day": 156,
+    "attraction": 258,
+    "title": "Grand Kongunadu Farewell Thali at Kovai Alankar Vilas",
+    "start_time": "14:00:00",
+    "est_cost": "14.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 608,
+  "fields": {
+    "day": 156,
+    "attraction": 259,
+    "title": "Scenic Sunset & Artisan Coffee Along Race Course Promenade",
+    "start_time": "17:00:00",
+    "est_cost": "8.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 609,
+  "fields": {
+    "day": 157,
+    "attraction": 260,
+    "title": "Iconic Fluffy Idlis and Ghee Podi Breakfast at Murugan Idli Shop",
+    "start_time": "09:00:00",
+    "est_cost": "4.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 610,
+  "fields": {
+    "day": 157,
+    "attraction": 38,
+    "title": "Marvel at Indo-Saracenic Pillars inside Thirumalai Nayakkar Palace",
+    "start_time": "11:30:00",
+    "est_cost": "2.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 611,
+  "fields": {
+    "day": 157,
+    "attraction": 261,
+    "title": "Sip the Legendary Chilled Madurai Dessert Drink",
+    "start_time": "15:30:00",
+    "est_cost": "1.50"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 612,
+  "fields": {
+    "day": 157,
+    "attraction": 22,
+    "title": "Twilight Walk and Evening Ceremonies at Meenakshi Amman Temple",
+    "start_time": "17:30:00",
+    "est_cost": "3.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 613,
+  "fields": {
+    "day": 158,
+    "attraction": 22,
+    "title": "Intricate Carvings and Hall of Thousand Pillars Exploration",
+    "start_time": "08:00:00",
+    "est_cost": "5.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 614,
+  "fields": {
+    "day": 158,
+    "attraction": 262,
+    "title": "Bustling Artisan and Textile Walk inside Historic Pillared Corridors",
+    "start_time": "11:30:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 615,
+  "fields": {
+    "day": 158,
+    "attraction": 263,
+    "title": "Grand Tamil Banana Leaf Lunch with Spicy Curries",
+    "start_time": "13:30:00",
+    "est_cost": "6.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 616,
+  "fields": {
+    "day": 158,
+    "attraction": 264,
+    "title": "Feast on Legendary Madurai Bun Parotta and Kari Dosa",
+    "start_time": "19:00:00",
+    "est_cost": "8.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 617,
+  "fields": {
+    "day": 159,
+    "attraction": 22,
+    "title": "Explore Ancient Rock-Cut Sanctuaries at Thiruparankundram Temple",
+    "start_time": "08:30:00",
+    "est_cost": "2.50"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 618,
+  "fields": {
+    "day": 159,
+    "attraction": 265,
+    "title": "Signature Madurai Meat Gravies and Bone Marrow Omelette",
+    "start_time": "12:30:00",
+    "est_cost": "9.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 619,
+  "fields": {
+    "day": 159,
+    "attraction": 20,
+    "title": "Peaceful Historic Grounds and History Tour at Tamukkam Palace",
+    "start_time": "15:00:00",
+    "est_cost": "1.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 620,
+  "fields": {
+    "day": 159,
+    "attraction": 266,
+    "title": "Nighttime Street Food Trail Tasting Kothu Parotta and Filter Coffee",
+    "start_time": "18:30:00",
+    "est_cost": "5.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 621,
+  "fields": {
+    "day": 160,
+    "attraction": 22,
+    "title": "Sacred Foothill Visit and Alagar Kovil Ghee Dosai Tasting",
+    "start_time": "08:30:00",
+    "est_cost": "3.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 622,
+  "fields": {
+    "day": 160,
+    "attraction": 22,
+    "title": "Hilltop Forest Sanctuary and Natural Spring at Pazhamudircholai",
+    "start_time": "11:00:00",
+    "est_cost": "1.50"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 623,
+  "fields": {
+    "day": 160,
+    "attraction": 267,
+    "title": "Discover Handcrafted Sungudi Sarees and Spice Markets",
+    "start_time": "15:00:00",
+    "est_cost": "15.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 624,
+  "fields": {
+    "day": 160,
+    "attraction": 58,
+    "title": "Traditional Chettinad and Kongu Specialties at Kumar Mess",
+    "start_time": "19:00:00",
+    "est_cost": "8.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 625,
+  "fields": {
+    "day": 161,
+    "attraction": 268,
+    "title": "Morning Stroll Around the Enormous Historic Temple Tank",
+    "start_time": "08:30:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 626,
+  "fields": {
+    "day": 161,
+    "attraction": 269,
+    "title": "Traditional Filter Coffee and Crispy Medu Vada Feast",
+    "start_time": "10:15:00",
+    "est_cost": "3.50"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 627,
+  "fields": {
+    "day": 161,
+    "attraction": 270,
+    "title": "Quiet Architectural Splendor at Madurai's Historic Cathedral",
+    "start_time": "12:00:00",
+    "est_cost": "0.00"
+  }
+},
+{
+  "model": "trips.itineraryitem",
+  "pk": 628,
+  "fields": {
+    "day": 161,
+    "attraction": 271,
+    "title": "Shop for Warm Wheat Halwa and Traditional Karupatti Sweets",
+    "start_time": "14:30:00",
+    "est_cost": "10.00"
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 9,
+  "fields": {
+    "trip": 25,
+    "category": "accommodation",
+    "amount": "35.00",
+    "spent_on": "2026-11-18",
+    "description": "Arrival and hotel check-in in central Kyoto",
+    "itinerary_item": 353
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 10,
+  "fields": {
+    "trip": 25,
+    "category": "food",
+    "amount": "45.00",
+    "spent_on": "2026-11-18",
+    "description": "Welcome lunch at traditional Kyoto bistro",
+    "itinerary_item": 354
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 11,
+  "fields": {
+    "trip": 31,
+    "category": "food",
+    "amount": "5.00",
+    "spent_on": "2026-10-21",
+    "description": "Welcome Breakfast with Iconic Sree Annapoorna Ghee Roast Dosa",
+    "itinerary_item": 585
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 12,
+  "fields": {
+    "trip": 31,
+    "category": "shopping",
+    "amount": "30.00",
+    "spent_on": "2026-10-21",
+    "description": "Retail Splurge and Fun at Brookefields Mall",
+    "itinerary_item": 586
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 13,
+  "fields": {
+    "trip": 31,
+    "category": "activities",
+    "amount": "12.00",
+    "spent_on": "2026-10-21",
+    "description": "Ethnic Kongunadu Feast at Haribhavanam",
+    "itinerary_item": 587
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 14,
+  "fields": {
+    "trip": 32,
+    "category": "food",
+    "amount": "4.00",
+    "spent_on": "2026-10-21",
+    "description": "Iconic Fluffy Idlis and Ghee Podi Breakfast at Murugan Idli Shop",
+    "itinerary_item": 609
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 15,
+  "fields": {
+    "trip": 32,
+    "category": "activities",
+    "amount": "2.00",
+    "spent_on": "2026-10-21",
+    "description": "Marvel at Indo-Saracenic Pillars inside Thirumalai Nayakkar Palace",
+    "itinerary_item": 610
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 16,
+  "fields": {
+    "trip": 32,
+    "category": "food",
+    "amount": "6.00",
+    "spent_on": "2026-10-22",
+    "description": "Grand Tamil Banana Leaf Lunch with Spicy Curries",
+    "itinerary_item": 615
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 17,
+  "fields": {
+    "trip": 32,
+    "category": "food",
+    "amount": "3.00",
+    "spent_on": "2026-10-24",
+    "description": "Sacred Foothill Visit and Alagar Kovil Ghee Dosai Tasting",
+    "itinerary_item": 621
+  }
+},
+{
+  "model": "budget.expense",
+  "pk": 18,
+  "fields": {
+    "trip": 32,
+    "category": "shopping",
+    "amount": "10.00",
+    "spent_on": "2026-10-25",
+    "description": "Shop for Warm Wheat Halwa and Traditional Karupatti Sweets",
+    "itinerary_item": 628
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "48368cc5be1348129cc49894fee95698",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjg1NTQyNCwiaWF0IjoxNzkyMjUwNjI0LCJqdGkiOiI0ODM2OGNjNWJlMTM0ODEyOWNjNDk4OTRmZWU5NTY5OCIsInVzZXJfaWQiOjN9.DttySRCYVHc5Srm-Ejnb_0tbyMH1xcrAW8ivlgItbbY",
+    "created_at": "2026-10-17T15:23:44.931Z",
+    "expires_at": "2026-10-24T15:23:44Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "f87a0edfaebc40eb8b81fec13a797055",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MjkzODMzMCwiaWF0IjoxNzkyMzMzNTMwLCJqdGkiOiJmODdhMGVkZmFlYmM0MGViOGI4MWZlYzEzYTc5NzA1NSIsInVzZXJfaWQiOjN9.g2Q1lbkTOHxqmkGnbMKkAthUGW8XhLEv2MH--jRbvQc",
+    "created_at": "2026-10-18T14:25:30.523Z",
+    "expires_at": "2026-10-25T14:25:30Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "8743bc5e543249968f28b92b2355fb7d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MjkzODM0MiwiaWF0IjoxNzkyMzMzNTQyLCJqdGkiOiI4NzQzYmM1ZTU0MzI0OTk2OGYyOGI5MmIyMzU1ZmI3ZCIsInVzZXJfaWQiOjN9.RrD8UlvNuHo6W9p-J2DD0Uzks5JAHGKWxEEXj5bLqfQ",
+    "created_at": "2026-10-18T14:25:42.527Z",
+    "expires_at": "2026-10-25T14:25:42Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "7b46edfc396f43c6a05f40411930e6ce",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MjkzOTk4MSwiaWF0IjoxNzkyMzM1MTgxLCJqdGkiOiI3YjQ2ZWRmYzM5NmY0M2M2YTA1ZjQwNDExOTMwZTZjZSIsInVzZXJfaWQiOjN9.D3pooIL5bDWtoYMon-c5mOjXIciIc3UwUKPVogETfeA",
+    "created_at": "2026-10-18T14:53:01.160Z",
+    "expires_at": "2026-10-25T14:53:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "7ab2c8eb384548f0af52b0b1763a1a9f",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0MjE3NywiaWF0IjoxNzkyMzM3Mzc3LCJqdGkiOiI3YWIyYzhlYjM4NDU0OGYwYWY1MmIwYjE3NjNhMWE5ZiIsInVzZXJfaWQiOjN9.BTU3ZXnc5qb6GtjFfa2EjuXcCwMccwB0D2orGA10sRo",
+    "created_at": "2026-10-18T15:29:37.161Z",
+    "expires_at": "2026-10-25T15:29:37Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "bb0434742b5b4229baaf869f55c57b14",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0MjYwMCwiaWF0IjoxNzkyMzM3ODAwLCJqdGkiOiJiYjA0MzQ3NDJiNWI0MjI5YmFhZjg2OWY1NWM1N2IxNCIsInVzZXJfaWQiOjN9.FBfP7dCvU_snX5ttrnpjC-I4B0VGU2uKXnGzxpFoQGs",
+    "created_at": "2026-10-18T15:36:40.457Z",
+    "expires_at": "2026-10-25T15:36:40Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "b26ef82ecfc34395aef6c621dceaa6f2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0MjYzMSwiaWF0IjoxNzkyMzM3ODMxLCJqdGkiOiJiMjZlZjgyZWNmYzM0Mzk1YWVmNmM2MjFkY2VhYTZmMiIsInVzZXJfaWQiOjN9.k9GhK9vWJSX2JNJBi0gnN-d7LXdy1_UfwGPxrquZiQc",
+    "created_at": "2026-10-18T15:37:11.063Z",
+    "expires_at": "2026-10-25T15:37:11Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "6dd4c8efe8fa4c17b49abd8dfa51d458",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0MjY2MCwiaWF0IjoxNzkyMzM3ODYwLCJqdGkiOiI2ZGQ0YzhlZmU4ZmE0YzE3YjQ5YWJkOGRmYTUxZDQ1OCIsInVzZXJfaWQiOjN9.5rIJWXxSdXDt4TDY1_u9OVGom9j5cf7btXN0iPJCD6s",
+    "created_at": "2026-10-18T15:37:40.189Z",
+    "expires_at": "2026-10-25T15:37:40Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "22e9fd2b12a2418bb0aed0cf4ee10fef",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0Mjc2MywiaWF0IjoxNzkyMzM3OTYzLCJqdGkiOiIyMmU5ZmQyYjEyYTI0MThiYjBhZWQwY2Y0ZWUxMGZlZiIsInVzZXJfaWQiOjN9.6YulOh6S08QzRH0V9MPKJhi9r9wWrSKh6hpjnW4znII",
+    "created_at": "2026-10-18T15:39:23.326Z",
+    "expires_at": "2026-10-25T15:39:23Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 10,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "96c5a8792920469ebda8d24aa281ca50",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0MjgyMSwiaWF0IjoxNzkyMzM4MDIxLCJqdGkiOiI5NmM1YTg3OTI5MjA0NjllYmRhOGQyNGFhMjgxY2E1MCIsInVzZXJfaWQiOjN9.qmORsHpVz4KLJeDZNJjNLnAOBEo0-qpNvLzLUiYQkvc",
+    "created_at": "2026-10-18T15:40:21.858Z",
+    "expires_at": "2026-10-25T15:40:21Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 11,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "73aa53093ebf480bb975ddd2a3ae0392",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0MjgzOCwiaWF0IjoxNzkyMzM4MDM4LCJqdGkiOiI3M2FhNTMwOTNlYmY0ODBiYjk3NWRkZDJhM2FlMDM5MiIsInVzZXJfaWQiOjN9.hKuLEbfeqJDP8oCP-p_JAdUmBq4OGoEwe8iGl48VWHg",
+    "created_at": "2026-10-18T15:40:38.714Z",
+    "expires_at": "2026-10-25T15:40:38Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "40e7d503642c47aaa6ff27e8597d98f4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0Mjg0OCwiaWF0IjoxNzkyMzM4MDQ4LCJqdGkiOiI0MGU3ZDUwMzY0MmM0N2FhYTZmZjI3ZTg1OTdkOThmNCIsInVzZXJfaWQiOjN9.2kNEm1brVFVacNvfNuoqOq7a6AMV6yD0WVJx2F8Sfv0",
+    "created_at": "2026-10-18T15:40:48.581Z",
+    "expires_at": "2026-10-25T15:40:48Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 13,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "dd9dfe43f6e8427f866cc476dec8d3c3",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0MzIyMSwiaWF0IjoxNzkyMzM4NDIxLCJqdGkiOiJkZDlkZmU0M2Y2ZTg0MjdmODY2Y2M0NzZkZWM4ZDNjMyIsInVzZXJfaWQiOjN9._tU3BiEQ_tIrNE3_QlnwjA3wL6LbUupqD1XSaLUaBLw",
+    "created_at": "2026-10-18T15:47:01.084Z",
+    "expires_at": "2026-10-25T15:47:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 14,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "3548bdb939104ea0a14a2940ade06593",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0MzIzOCwiaWF0IjoxNzkyMzM4NDM4LCJqdGkiOiIzNTQ4YmRiOTM5MTA0ZWEwYTE0YTI5NDBhZGUwNjU5MyIsInVzZXJfaWQiOjN9.2Y7c7y2MyUwl_s9pH0tSaCbverEgn3nZwsfE0sN_5Tw",
+    "created_at": "2026-10-18T15:47:18.022Z",
+    "expires_at": "2026-10-25T15:47:18Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 15,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "18dfc50e0a2d4d44ab336986516d9fbe",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0NDEyNSwiaWF0IjoxNzkyMzM5MzI1LCJqdGkiOiIxOGRmYzUwZTBhMmQ0ZDQ0YWIzMzY5ODY1MTZkOWZiZSIsInVzZXJfaWQiOjN9.fmS8lmM1jbZdnGWo6PZOleSJBHd-z3LqynklHrqgwcs",
+    "created_at": "2026-10-18T16:02:05.800Z",
+    "expires_at": "2026-10-25T16:02:05Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "f0334b90038e4db18f4310f3f34017d8",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0NDQ1MywiaWF0IjoxNzkyMzM5NjUzLCJqdGkiOiJmMDMzNGI5MDAzOGU0ZGIxOGY0MzEwZjNmMzQwMTdkOCIsInVzZXJfaWQiOjN9.__p2TbIeeKalHeyZaGbbp0noKxWzhndDmxB_Fi53ehw",
+    "created_at": "2026-10-18T16:07:33.559Z",
+    "expires_at": "2026-10-25T16:07:33Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 17,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "3ea3c8c47e1b4024aff57547f65fead4",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0NDQ2NCwiaWF0IjoxNzkyMzM5NjY0LCJqdGkiOiIzZWEzYzhjNDdlMWI0MDI0YWZmNTc1NDdmNjVmZWFkNCIsInVzZXJfaWQiOjN9.za-L4tDaM4gR8H78EhrJmzAY-oxi1tqkY3GzJ2twVJ4",
+    "created_at": "2026-10-18T16:07:44.981Z",
+    "expires_at": "2026-10-25T16:07:44Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 18,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "c5ca0931e6974e14a188a2a6b44cd3ac",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0ODIxOCwiaWF0IjoxNzkyMzQzNDE4LCJqdGkiOiJjNWNhMDkzMWU2OTc0ZTE0YTE4OGEyYTZiNDRjZDNhYyIsInVzZXJfaWQiOjN9.-NMmCcAHlbeYCjPwu4G89u1t7e0k5XU2edOkM1wBo_U",
+    "created_at": "2026-10-18T17:10:18.649Z",
+    "expires_at": "2026-10-25T17:10:18Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 19,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "ce4e5b6f77bd4e7683be84b66e4a8335",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0ODU0NSwiaWF0IjoxNzkyMzQzNzQ1LCJqdGkiOiJjZTRlNWI2Zjc3YmQ0ZTc2ODNiZTg0YjY2ZTRhODMzNSIsInVzZXJfaWQiOjN9.pnt8cc-scyyDX6r6tqqaYx8FVxJlSFGZJTvY6J1jRjU",
+    "created_at": "2026-10-18T17:15:45.433Z",
+    "expires_at": "2026-10-25T17:15:45Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 20,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "cf399f717036436090b6d03be4b2ee92",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0ODg4NywiaWF0IjoxNzkyMzQ0MDg3LCJqdGkiOiJjZjM5OWY3MTcwMzY0MzYwOTBiNmQwM2JlNGIyZWU5MiIsInVzZXJfaWQiOjN9.h_R0aH1tcTOoFcVCegECw7fcN_0Mvm9Rr5PjOpf75o0",
+    "created_at": "2026-10-18T17:21:27.167Z",
+    "expires_at": "2026-10-25T17:21:27Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 21,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "0f1b48830a834354afd16e267d4db439",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0ODkwMiwiaWF0IjoxNzkyMzQ0MTAyLCJqdGkiOiIwZjFiNDg4MzBhODM0MzU0YWZkMTZlMjY3ZDRkYjQzOSIsInVzZXJfaWQiOjN9.jObcmEG1hV2MzhSSb6se0uuP0bai3geqAoJQYBwkiCE",
+    "created_at": "2026-10-18T17:21:42.145Z",
+    "expires_at": "2026-10-25T17:21:42Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 22,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "4177606a62694af78b485ad4e0550a7d",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0ODkxMSwiaWF0IjoxNzkyMzQ0MTExLCJqdGkiOiI0MTc3NjA2YTYyNjk0YWY3OGI0ODVhZDRlMDU1MGE3ZCIsInVzZXJfaWQiOjN9.kB0DWurTKyeIB4PB71_iEZZu9mxRnJekA0qHyflKXq8",
+    "created_at": "2026-10-18T17:21:51.697Z",
+    "expires_at": "2026-10-25T17:21:51Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "0b9096652faa4b11878195c4933344f3",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk0OTY0MiwiaWF0IjoxNzkyMzQ0ODQyLCJqdGkiOiIwYjkwOTY2NTJmYWE0YjExODc4MTk1YzQ5MzMzNDRmMyIsInVzZXJfaWQiOjN9.w--Ja3FoaAGIS1naLcz0lC5WQxykRDw4BdKQeIDIXb0",
+    "created_at": "2026-10-18T17:34:02.034Z",
+    "expires_at": "2026-10-25T17:34:02Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "51aad14d20ba4d2fbae48cf63589c661",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk1NjkxNCwiaWF0IjoxNzkyMzUyMTE0LCJqdGkiOiI1MWFhZDE0ZDIwYmE0ZDJmYmFlNDhjZjYzNTg5YzY2MSIsInVzZXJfaWQiOjN9.T4hSRvqhXPWPXvgQtoYS71KgwDo5Uo4jXaSbxGuKWAs",
+    "created_at": "2026-10-18T19:35:14.699Z",
+    "expires_at": "2026-10-25T19:35:14Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "304a7cdd384e4032b0c2414c655bfb5e",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk5ODc1MSwiaWF0IjoxNzkyMzkzOTUxLCJqdGkiOiIzMDRhN2NkZDM4NGU0MDMyYjBjMjQxNGM2NTViZmI1ZSIsInVzZXJfaWQiOjN9.N6MRveFMVwMD8cJ7KrUJ1pVQLgMTy1UScQmovEQPF64",
+    "created_at": "2026-10-19T07:12:31.516Z",
+    "expires_at": "2026-10-26T07:12:31Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "jti": "de25564a4f1a4f48bec3066f0a58e988",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk5ODg5MywiaWF0IjoxNzkyMzk0MDkzLCJqdGkiOiJkZTI1NTY0YTRmMWE0ZjQ4YmVjMzA2NmYwYTU4ZTk4OCIsInVzZXJfaWQiOjR9.nCVOsEYV6O8oXjVBBFq1ityHWZ_2TmAJAWOuQuQWHuk",
+    "created_at": "2026-10-19T07:14:53.776Z",
+    "expires_at": "2026-10-26T07:14:53Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "1157a2ca2f494e9bbb88dfaf79ca2a0f",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5Mjk5ODkyMywiaWF0IjoxNzkyMzk0MTIzLCJqdGkiOiIxMTU3YTJjYTJmNDk0ZTliYmI4OGRmYWY3OWNhMmEwZiIsInVzZXJfaWQiOjN9.JXdfD0bQsNTPOeS_UlZUkXuLQiGkaWq1GhR7T2ooPrA",
+    "created_at": "2026-10-19T07:15:23.434Z",
+    "expires_at": "2026-10-26T07:15:23Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 28,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "c33ebc06e1124ca0801dcdcc60aa9fe6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzAyOTIwMSwiaWF0IjoxNzkyNDI0NDAxLCJqdGkiOiJjMzNlYmMwNmUxMTI0Y2EwODAxZGNkY2M2MGFhOWZlNiIsInVzZXJfaWQiOjN9.UsHxY9OJyvU5NsYjHxR80c1Kg87UqK-m7x9NDs_S8uY",
+    "created_at": "2026-10-19T15:40:01.859Z",
+    "expires_at": "2026-10-26T15:40:01Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 29,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "jti": "fe818faaf7fd4cd1811ff8ff9a419771",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzAzMTE1MiwiaWF0IjoxNzkyNDI2MzUyLCJqdGkiOiJmZTgxOGZhYWY3ZmQ0Y2QxODExZmY4ZmY5YTQxOTc3MSIsInVzZXJfaWQiOjR9.Ij31fT5jGZYjCBX-mk0eXvtQ2jd6Flum6lWYLO1vuSk",
+    "created_at": "2026-10-19T16:12:32.249Z",
+    "expires_at": "2026-10-26T16:12:32Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 30,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "jti": "2025b620fea141c4bed07a8c14892668",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzAzMjA1OSwiaWF0IjoxNzkyNDI3MjU5LCJqdGkiOiIyMDI1YjYyMGZlYTE0MWM0YmVkMDdhOGMxNDg5MjY2OCIsInVzZXJfaWQiOjR9.zjeDSq2aqaC2O_xAi8FcqD_be6jHjOjiHX9SPFN4m5k",
+    "created_at": "2026-10-19T16:27:39.488Z",
+    "expires_at": "2026-10-26T16:27:39Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 31,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "jti": "c784f5b19fb3465cb572fc0b6e7a440b",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzAzMjk1NywiaWF0IjoxNzkyNDI4MTU3LCJqdGkiOiJjNzg0ZjViMTlmYjM0NjVjYjU3MmZjMGI2ZTdhNDQwYiIsInVzZXJfaWQiOjR9.7w-kpSeF0AqowaDbV3jEHkKzMAKTtA9pc0ZPWDQugTo",
+    "created_at": "2026-10-19T16:42:37.857Z",
+    "expires_at": "2026-10-26T16:42:37Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 32,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "jti": "7e0ebdb4d13d46578d921457b05f0b77",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzAzNDYxMSwiaWF0IjoxNzkyNDI5ODExLCJqdGkiOiI3ZTBlYmRiNGQxM2Q0NjU3OGQ5MjE0NTdiMDVmMGI3NyIsInVzZXJfaWQiOjR9.Si89XFek-l55fvUWie1es47uDOQTb5Fbbvuoe-wwlYc",
+    "created_at": "2026-10-19T17:10:11.248Z",
+    "expires_at": "2026-10-26T17:10:11Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 33,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "jti": "7b053e8cad2c494893ca7e5dfe2161d0",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzAzNDc5OSwiaWF0IjoxNzkyNDI5OTk5LCJqdGkiOiI3YjA1M2U4Y2FkMmM0OTQ4OTNjYTdlNWRmZTIxNjFkMCIsInVzZXJfaWQiOjR9.PRRDovCohoKx6N9Rjt4ZBphr1E3hzxV9FPmcwvlp79s",
+    "created_at": "2026-10-19T17:13:19.557Z",
+    "expires_at": "2026-10-26T17:13:19Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 34,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "5f606e754bbd457e9ea4a23227ab1953",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzAzODc4MywiaWF0IjoxNzkyNDMzOTgzLCJqdGkiOiI1ZjYwNmU3NTRiYmQ0NTdlOWVhNGEyMzIyN2FiMTk1MyIsInVzZXJfaWQiOjN9.lhLuB7LDb487VdxmJG9-BnagZ6Dc2NEwm641c10sov4",
+    "created_at": "2026-10-19T18:19:43.772Z",
+    "expires_at": "2026-10-26T18:19:43Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 35,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "91c7e14ddc014a2da8d419396a28428b",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzA1MDI1OSwiaWF0IjoxNzkyNDQ1NDU5LCJqdGkiOiI5MWM3ZTE0ZGRjMDE0YTJkYThkNDE5Mzk2YTI4NDI4YiIsInVzZXJfaWQiOjN9.7G7iZXQcxifoN1I89bYBv2PZkbGWe7_Ye46vVkTtcoc",
+    "created_at": "2026-10-19T21:30:59.224Z",
+    "expires_at": "2026-10-26T21:30:59Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 36,
+  "fields": {
+    "user": null,
+    "jti": "b185f727ae2b446c9a56f14e0903b56c",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzA1NDc4NCwiaWF0IjoxNzkyNDQ5OTg0LCJqdGkiOiJiMTg1ZjcyN2FlMmI0NDZjOWE1NmYxNGUwOTAzYjU2YyIsInVzZXJfaWQiOjV9.bLbUHqbCKa-UsGadSeGFjdgHtxT8TsmQE5pRkrxB6bw",
+    "created_at": "2026-10-19T22:46:24.141Z",
+    "expires_at": "2026-10-26T22:46:24Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 37,
+  "fields": {
+    "user": null,
+    "jti": "b38cc538e8f04b45948e70aefb9b6bae",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzA1NDc4NCwiaWF0IjoxNzkyNDQ5OTg0LCJqdGkiOiJiMzhjYzUzOGU4ZjA0YjQ1OTQ4ZTcwYWVmYjliNmJhZSIsInVzZXJfaWQiOjV9.YffgAI2gm-Tjnda1QLJF1lAdFvRl4bagq0tJNRejsnY",
+    "created_at": "2026-10-19T22:46:24.231Z",
+    "expires_at": "2026-10-26T22:46:24Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 38,
+  "fields": {
+    "user": [
+      "icewalker2737@gmail.com"
+    ],
+    "jti": "fd755bb8ff01487ca329e5fd2da5e9b3",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzA1NDgzNywiaWF0IjoxNzkyNDUwMDM3LCJqdGkiOiJmZDc1NWJiOGZmMDE0ODdjYTMyOWU1ZmQyZGE1ZTliMyIsInVzZXJfaWQiOjZ9.F_rHYYO4XyvPgmQ8v4k3UP0hK9Ft0zz4vu0Dg9XoECc",
+    "created_at": "2026-10-19T22:47:17.487Z",
+    "expires_at": "2026-10-26T22:47:17Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 39,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "159c5e60831a49f681d41ae6f5789810",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzA1NTAzMCwiaWF0IjoxNzkyNDUwMjMwLCJqdGkiOiIxNTljNWU2MDgzMWE0OWY2ODFkNDFhZTZmNTc4OTgxMCIsInVzZXJfaWQiOjN9.Iju7uSKJMqAYZx-ydXD7nS4wosQ6k4ePozbLFSAk3CM",
+    "created_at": "2026-10-19T22:50:30.201Z",
+    "expires_at": "2026-10-26T22:50:30Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 40,
+  "fields": {
+    "user": [
+      "traveler@travelgenie.com"
+    ],
+    "jti": "8f98a5921524460caf79a511dc936bc6",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzA1NTA3MiwiaWF0IjoxNzkyNDUwMjcyLCJqdGkiOiI4Zjk4YTU5MjE1MjQ0NjBjYWY3OWE1MTFkYzkzNmJjNiIsInVzZXJfaWQiOjR9.A6FNfEx-qCNLO8k2M6PbuV5H9Ycu7pGimUrWDhqml3g",
+    "created_at": "2026-10-19T22:51:12.875Z",
+    "expires_at": "2026-10-26T22:51:12Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 41,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "4794a8a7f4a3415f8118f6e21325408e",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzA1NTQ5NywiaWF0IjoxNzkyNDUwNjk3LCJqdGkiOiI0Nzk0YThhN2Y0YTM0MTVmODExOGY2ZTIxMzI1NDA4ZSIsInVzZXJfaWQiOjN9.TAS8VDB9_BcSRt8QkV97mKH2ZoBPQPCPyqQpoEo8SkE",
+    "created_at": "2026-10-19T22:58:17.601Z",
+    "expires_at": "2026-10-26T22:58:17Z"
+  }
+},
+{
+  "model": "token_blacklist.outstandingtoken",
+  "pk": 42,
+  "fields": {
+    "user": [
+      "admin@travelgenie.com"
+    ],
+    "jti": "cb8665ad12d84b14872bab5c7a8a62fe",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc5MzA1NTUzMCwiaWF0IjoxNzkyNDUwNzMwLCJqdGkiOiJjYjg2NjVhZDEyZDg0YjE0ODcyYmFiNWM3YThhNjJmZSIsInVzZXJfaWQiOjN9.Mgmpzh9jU7o1Mc4x1q-2WFRiKJ2U-_Bxi727JmJ0LRQ",
+    "created_at": "2026-10-19T22:58:50.677Z",
+    "expires_at": "2026-10-26T22:58:50Z"
+  }
+}
+]
