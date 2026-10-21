@@ -1,0 +1,450 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}{{ title }} | TravelGenie Database Mission Control{% endblock %}
+
+{% block branding %}
+<div style="display: flex; align-items: center; gap: 12px; padding: 4px 0;">
+  <span style="font-size: 26px; line-height: 1;">✈️</span>
+  <div>
+    <h1 id="site-name" style="margin: 0; line-height: 1.1; font-size: 20px; font-weight: 800; letter-spacing: -0.02em;">
+      <a href="{% url 'admin:index' %}" style="color: #ffffff; text-decoration: none;">
+        TravelGenie <span style="color: #e4572e; font-weight: 700;">Database</span>
+      </a>
+    </h1>
+    <div style="font-size: 11px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; margin-top: 2px;">
+      PostgreSQL Mission Control
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extrahead %}
+{{ block.super }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+  /* -------------------------------------------------------------
+     TravelGenie Dual-Theme (Light + Full Dark Mode Support)
+     ------------------------------------------------------------- */
+  :root {
+    --tg-navy: #0b1329;
+    --tg-coral: #e4572e;
+    --tg-coral-hover: #cf4720;
+    --tg-sea: #1d7874;
+
+    /* Light Mode Variables (Default) */
+    --bg-page: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-header: #0b1329;
+    --bg-th: #f1f5f9;
+    --bg-tr-hover: #f1f5f9;
+    --border-color: #e2e8f0;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+    --link-color: #0369a1;
+    --link-hover: #e4572e;
+    --input-bg: #ffffff;
+    --input-border: #cbd5e1;
+    --code-bg: #f1f5f9;
+  }
+
+  /* Dark Mode Detection (via data-theme OR system preference) */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg-page: #090d16;
+      --bg-card: #131b2e;
+      --bg-header: #070a12;
+      --bg-th: #1a233a;
+      --bg-tr-hover: #1e2942;
+      --border-color: #23304d;
+      --text-primary: #f8fafc;
+      --text-secondary: #e2e8f0;
+      --text-muted: #94a3b8;
+      --link-color: #38bdf8;
+      --link-hover: #fb923c;
+      --input-bg: #162035;
+      --input-border: #334155;
+      --code-bg: #1e2942;
+    }
+  }
+
+  [data-theme="dark"] {
+    --bg-page: #090d16 !important;
+    --bg-card: #131b2e !important;
+    --bg-header: #070a12 !important;
+    --bg-th: #1a233a !important;
+    --bg-tr-hover: #1e2942 !important;
+    --border-color: #23304d !important;
+    --text-primary: #f8fafc !important;
+    --text-secondary: #e2e8f0 !important;
+    --text-muted: #94a3b8 !important;
+    --link-color: #38bdf8 !important;
+    --link-hover: #fb923c !important;
+    --input-bg: #162035 !important;
+    --input-border: #334155 !important;
+    --code-bg: #1e2942 !important;
+  }
+
+  /* ---------------- Base Styles ---------------- */
+  html, body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    background-color: var(--bg-page) !important;
+    color: var(--text-primary) !important;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #container, #content, #content-main {
+    background-color: var(--bg-page) !important;
+    color: var(--text-primary) !important;
+  }
+
+  /* Header */
+  #header {
+    background: var(--bg-header) !important;
+    color: #ffffff !important;
+    padding: 14px 28px !important;
+    border-bottom: 2px solid var(--tg-coral) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  #user-tools {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #cbd5e1 !important;
+  }
+  #user-tools a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 6px 12px !important;
+    border-radius: 8px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    transition: all 0.15s ease !important;
+  }
+  #user-tools a:hover {
+    background: var(--tg-coral) !important;
+    color: #ffffff !important;
+  }
+
+  /* Breadcrumbs */
+  div.breadcrumbs {
+    background: var(--bg-card) !important;
+    padding: 12px 28px !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    color: var(--text-muted) !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.04em !important;
+  }
+  div.breadcrumbs a {
+    color: var(--link-color) !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+  }
+  div.breadcrumbs a:hover {
+    color: var(--link-hover) !important;
+  }
+
+  /* Main container */
+  #content {
+    padding: 24px 28px !important;
+    max-width: 1440px !important;
+    margin: 0 auto !important;
+  }
+
+  h1, h2, h3 {
+    color: var(--text-primary) !important;
+    font-weight: 800 !important;
+  }
+
+  /* Sidebar Navigation (Left side on admin) */
+  #nav-sidebar {
+    background: var(--bg-card) !important;
+    border-right: 1px solid var(--border-color) !important;
+  }
+  #nav-sidebar .module caption, #nav-sidebar .module th {
+    background: var(--bg-th) !important;
+    color: var(--text-primary) !important;
+    font-weight: 800 !important;
+  }
+  #nav-sidebar a {
+    color: var(--text-secondary) !important;
+    font-weight: 600 !important;
+  }
+  #nav-sidebar a:hover, #nav-sidebar .current-model a {
+    color: #ffffff !important;
+    background: var(--tg-coral) !important;
+    border-radius: 6px !important;
+  }
+  #nav-filter {
+    background: var(--input-bg) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--input-border) !important;
+    border-radius: 8px !important;
+  }
+
+  /* ---------------- Dashboard Cards ---------------- */
+  .dashboard .module {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08) !important;
+    overflow: hidden !important;
+    margin-bottom: 24px !important;
+  }
+  .dashboard .module caption {
+    background: var(--bg-th) !important;
+    color: var(--text-primary) !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    padding: 14px 20px !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+  .dashboard .module caption a {
+    color: var(--text-primary) !important;
+  }
+  .dashboard .module tr {
+    background: var(--bg-card) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+  .dashboard .module th a {
+    color: var(--link-color) !important;
+    font-weight: 700 !important;
+  }
+
+  /* ---------------- Changelist Table ---------------- */
+  #changelist {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+    overflow: hidden !important;
+  }
+  #changelist table {
+    width: 100% !important;
+    background: var(--bg-card) !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+  }
+  #changelist table thead th {
+    background: var(--bg-th) !important;
+    color: var(--text-primary) !important;
+    font-weight: 800 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.06em !important;
+    padding: 14px 16px !important;
+    border-bottom: 2px solid var(--border-color) !important;
+  }
+  #changelist table thead th a {
+    color: var(--text-primary) !important;
+  }
+  #changelist table tbody tr {
+    background-color: var(--bg-card) !important;
+    color: var(--text-primary) !important;
+    transition: background-color 0.15s ease !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+  #changelist table tbody tr:hover {
+    background-color: var(--bg-tr-hover) !important;
+  }
+  #changelist table tbody td, #changelist table tbody th {
+    padding: 14px 16px !important;
+    font-size: 13px !important;
+    vertical-align: middle !important;
+    color: var(--text-primary) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    border-top: none !important;
+  }
+  #changelist table tbody th a, #changelist table tbody td a {
+    color: var(--link-color) !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+  }
+  #changelist table tbody th a:hover, #changelist table tbody td a:hover {
+    color: var(--link-hover) !important;
+    text-decoration: underline !important;
+  }
+
+  /* ---------------- Search & Filter Toolbar ---------------- */
+  #toolbar {
+    background: var(--bg-card) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    padding: 16px 20px !important;
+  }
+  #searchbar {
+    background: var(--input-bg) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--input-border) !important;
+    border-radius: 8px !important;
+    padding: 10px 16px !important;
+    font-size: 13px !important;
+    width: 300px !important;
+    outline: none !important;
+  }
+  #searchbar:focus {
+    border-color: var(--tg-coral) !important;
+    box-shadow: 0 0 0 3px rgba(228, 87, 46, 0.2) !important;
+  }
+  #changelist #toolbar input[type="submit"] {
+    background: var(--tg-navy) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 8px !important;
+    padding: 10px 18px !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+  }
+
+  /* Actions Bar */
+  .actions {
+    background: var(--bg-card) !important;
+    color: var(--text-primary) !important;
+    padding: 12px 20px !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+  .actions select {
+    background: var(--input-bg) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--input-border) !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+  }
+  .actions .button {
+    background: var(--tg-coral) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    font-weight: 700 !important;
+    cursor: pointer !important;
+  }
+  .actions span.all, .actions span.action-counter, .actions span.clear {
+    color: var(--text-secondary) !important;
+    font-weight: 600 !important;
+  }
+
+  /* Filter Box on Right */
+  #changelist-filter {
+    background: var(--bg-th) !important;
+    border-left: 1px solid var(--border-color) !important;
+    padding: 20px !important;
+  }
+  #changelist-filter h2 {
+    color: var(--text-primary) !important;
+    font-size: 13px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    padding-bottom: 8px !important;
+  }
+  #changelist-filter h3 {
+    color: var(--text-secondary) !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+  }
+  #changelist-filter li a {
+    color: var(--link-color) !important;
+  }
+  #changelist-filter li.selected a {
+    color: var(--tg-coral) !important;
+    font-weight: 800 !important;
+  }
+
+  /* ---------------- Buttons ---------------- */
+  .button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: var(--tg-coral) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 18px !important;
+    font-size: 13px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    transition: all 0.15s ease !important;
+    display: inline-block !important;
+  }
+  .button:hover, input[type=submit]:hover, input[type=button]:hover, .submit-row input:hover {
+    background: var(--tg-coral-hover) !important;
+  }
+  .object-tools a {
+    background: var(--tg-navy) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    padding: 9px 16px !important;
+    text-decoration: none !important;
+  }
+  .object-tools a:hover {
+    background: var(--tg-coral) !important;
+  }
+
+  /* Form controls */
+  input[type=text], input[type=password], input[type=email], input[type=url], input[type=number], textarea, select {
+    background: var(--input-bg) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--input-border) !important;
+    border-radius: 8px !important;
+    padding: 9px 12px !important;
+    font-size: 13px !important;
+  }
+
+  /* ---------------- High-Contrast Modern Badges ---------------- */
+  .tg-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .tg-badge-blue  { background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; }
+  .tg-badge-green { background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+  .tg-badge-coral { background: #ffedd5; color: #c2410c; border: 1px solid #fed7aa; }
+  .tg-badge-slate { background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
+
+  /* Dark mode badge overrides for vibrant readability */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .tg-badge-blue  { background: rgba(56, 189, 248, 0.18); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); }
+    :root:not([data-theme="light"]) .tg-badge-green { background: rgba(34, 197, 94, 0.18);  color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.4); }
+    :root:not([data-theme="light"]) .tg-badge-coral { background: rgba(228, 87, 46, 0.22);  color: #fb923c; border: 1px solid rgba(228, 87, 46, 0.5); }
+    :root:not([data-theme="light"]) .tg-badge-slate { background: rgba(148, 163, 184, 0.15); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.3); }
+  }
+  [data-theme="dark"] .tg-badge-blue  { background: rgba(56, 189, 248, 0.18) !important; color: #38bdf8 !important; border: 1px solid rgba(56, 189, 248, 0.4) !important; }
+  [data-theme="dark"] .tg-badge-green { background: rgba(34, 197, 94, 0.18) !important;  color: #4ade80 !important; border: 1px solid rgba(34, 197, 94, 0.4) !important; }
+  [data-theme="dark"] .tg-badge-coral { background: rgba(228, 87, 46, 0.22) !important;  color: #fb923c !important; border: 1px solid rgba(228, 87, 46, 0.5) !important; }
+  [data-theme="dark"] .tg-badge-slate { background: rgba(148, 163, 184, 0.15) !important; color: #cbd5e1 !important; border: 1px solid rgba(148, 163, 184, 0.3) !important; }
+
+  .tg-time {
+    background: var(--code-bg);
+    color: var(--text-primary);
+    padding: 3px 7px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    border: 1px solid var(--border-color);
+  }
+
+  .tg-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--text-primary);
+  }
+
+  .tg-muted-text {
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+</style>
+{% endblock %}
