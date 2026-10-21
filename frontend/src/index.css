@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700&display=swap');
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sand: #F6F1E9;
+  --paper: #FFFDF8;
+  --ink: #14213D;
+  --ink-2: #3A4766;
+  --mute: #8A8478;
+  --line: #E7DFD2;
+  --coral: #E4572E;
+  --coral-soft: #FBE3D9;
+  --sea: #1F7A8C;
+  --sea-soft: #D7ECEF;
+  --sun: #F2A541;
+  --sun-soft: #FCEBD0;
+  --moss: #4F7A43;
+  --moss-soft: #E1ECDC;
+}
+
+body {
+  font-family: Manrope, system-ui, sans-serif;
+  background: var(--sand);
+  color: var(--ink);
+}
+
+.tg-serif {
+  font-family: Fraunces, Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.tg-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: 0 1px 0 #fff inset, 0 12px 30px -18px rgba(20, 33, 61, 0.25);
+}
+
+.tg-grain {
+  background-image: radial-gradient(rgba(20, 33, 61, 0.05) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+.tg-btn {
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 999px;
+  padding: 0.7rem 1.25rem;
+  font-weight: 600;
+  transition: 0.2s;
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.tg-btn:hover {
+  background: var(--coral);
+  transform: translateY(-1px);
+}
+
+.tg-ghost {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.55rem 1rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  transition: 0.2s;
+  background: var(--paper);
+}
+
+.tg-ghost:hover {
+  border-color: var(--ink);
+}
+
+.tg-ghost[data-on="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+.tg-input {
+  width: 100%;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.75rem 1rem;
+  outline: none;
+  transition: 0.2s;
+  color: var(--ink);
+  font-family: Manrope, system-ui, sans-serif;
+}
+
+.tg-input:focus {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 4px rgba(228, 87, 46, 0.12);
+}
+
+.tg-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--mute);
+  font-weight: 700;
+}
+
+.tg-perf {
+  border-left: 2px dashed var(--line);
+}
+
+.tg-rise {
+  animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+
+.tg-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Legacy classes used by Login / Register / NewTrip / TripDetail */
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 0 #fff inset, 0 12px 30px -18px rgba(20,33,61,.2);
+}
+
+.btn-primary {
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 999px;
+  padding: 0.65rem 1.25rem;
+  font-weight: 600;
+  transition: 0.2s;
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.btn-primary:hover {
+  background: var(--coral);
+  transform: translateY(-1px);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.input {
+  width: 100%;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.75rem 1rem;
+  outline: none;
+  transition: 0.2s;
+  color: var(--ink);
+  font-family: Manrope, system-ui, sans-serif;
+}
+
+.input:focus {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 4px rgba(228, 87, 46, 0.12);
+}
+
+.label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--mute);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.badge-blue  { background: var(--sea-soft);  color: var(--sea); }
+.badge-gray  { background: var(--line);       color: var(--ink-2); }
+.badge-green { background: var(--moss-soft);  color: var(--moss); }
+.badge-red   { background: var(--coral-soft); color: var(--coral); }

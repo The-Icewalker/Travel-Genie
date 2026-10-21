@@ -1,0 +1,11 @@
+.env
+__pycache__
+*.pyc
+*.pyo
+.git
+staticfiles
+mediafiles
+test_db.sqlite3
+.pytest_cache
+htmlcov
+.coverage
