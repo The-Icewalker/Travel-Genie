@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import LoadingSpinner from '../components/LoadingSpinner.jsx';
@@ -12,15 +12,20 @@ export default function Login() {
   const [form, setForm] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const passwordInputRef = useRef(null);
 
   const handleChange = (e) => {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
     setError('');
   };
 
-  const handleQuickFill = (email, password) => {
-    setForm({ email, password });
+  const handleSelectRole = (email) => {
+    // Fill only the email address, keep password bar completely empty, and ask for password
+    setForm({ email, password: '' });
     setError('');
+    setTimeout(() => {
+      passwordInputRef.current?.focus();
+    }, 50);
   };
 
   const handleSubmit = async (e) => {
@@ -122,6 +127,7 @@ export default function Login() {
                   </label>
                 </div>
                 <input
+                  ref={passwordInputRef}
                   id="password"
                   name="password"
                   type="password"
@@ -144,22 +150,26 @@ export default function Login() {
               </button>
             </form>
 
-            {/* Quick-fill credentials for demo / testing */}
+            {/* Quick Demo Account Selector */}
             <div className="mt-6 pt-5 border-t border-dashed" style={{ borderColor: 'var(--line)' }}>
-              <div className="tg-label text-center mb-3 text-[10px]">Quick Demo Sign-In</div>
+              <div className="tg-label text-center mb-3 text-[10px]">Select Demo Account (Requires Password)</div>
               <div className="grid grid-cols-2 gap-2">
                 <button
                   type="button"
-                  onClick={() => handleQuickFill('traveler@travelgenie.com', 'Travel@123')}
-                  className="tg-ghost text-xs py-2 px-3 text-center flex flex-col items-center justify-center hover:border-[var(--sea)]"
+                  onClick={() => handleSelectRole('traveler@travelgenie.com')}
+                  className={`tg-ghost text-xs py-2 px-3 text-center flex flex-col items-center justify-center hover:border-[var(--sea)] transition-all ${
+                    form.email === 'traveler@travelgenie.com' ? 'border-[var(--sea)] bg-[var(--sea-soft)]' : ''
+                  }`}
                 >
                   <span className="font-bold text-[var(--sea)]">Traveler</span>
                   <span className="text-[10px] text-[var(--mute)]">traveler@travelgenie.com</span>
                 </button>
                 <button
                   type="button"
-                  onClick={() => handleQuickFill('admin@travelgenie.com', 'Admin@123')}
-                  className="tg-ghost text-xs py-2 px-3 text-center flex flex-col items-center justify-center hover:border-[var(--coral)]"
+                  onClick={() => handleSelectRole('admin@travelgenie.com')}
+                  className={`tg-ghost text-xs py-2 px-3 text-center flex flex-col items-center justify-center hover:border-[var(--coral)] transition-all ${
+                    form.email === 'admin@travelgenie.com' ? 'border-[var(--coral)] bg-[var(--coral-soft)]' : ''
+                  }`}
                 >
                   <span className="font-bold text-[var(--coral)]">Admin</span>
                   <span className="text-[10px] text-[var(--mute)]">admin@travelgenie.com</span>
