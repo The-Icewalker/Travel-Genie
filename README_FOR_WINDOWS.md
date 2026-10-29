@@ -13,14 +13,16 @@ It will automatically build the containers, start the app, import the database, 
 ## Quickstart Option B: Manual (PowerShell / Command Prompt)
 Open PowerShell in this folder and run:
 
-\\powershell
+```powershell
 # 1. Build and start containers in the background
 docker compose up --build -d
 
 # 2. Load all users (Bassil, Demo, Admin) and trips
 docker compose exec backend python manage.py loaddata datadump.json
-\
+```
+
 ## Access Links
 - **TravelGenie Web App:** http://localhost:5173
 - **Admin Panel (Django):** http://localhost:8000/admin/
-  - **Email / Username:** \dmin@travelgenie.com  - **Password:** \dmin123
+  - **Email / Username:** `admin@travelgenie.com`
+  - **Password:** `admin123`
