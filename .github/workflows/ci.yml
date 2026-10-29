@@ -35,7 +35,7 @@ jobs:
           SECRET_KEY: ci-secret-key-not-for-production
           DEBUG: "True"
           DJANGO_SETTINGS_MODULE: travelgenie.settings
-          DATABASE_URL: ""
+          DATABASE_URL: "sqlite:///db.sqlite3"
         run: python manage.py test --verbosity=2
 
   # ─── Job 2: Frontend Build ────────────────────────────────────────────────

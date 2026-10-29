@@ -73,9 +73,13 @@ ASGI_APPLICATION = 'travelgenie.asgi.application'
 # ---------------------------------------------------------------------------
 # Database
 # ---------------------------------------------------------------------------
+_db_url = config('DATABASE_URL', default='sqlite:///db.sqlite3')
+if not _db_url or not _db_url.strip():
+    _db_url = 'sqlite:///db.sqlite3'
+
 DATABASES = {
     'default': dj_database_url.parse(
-        config('DATABASE_URL', default='sqlite:///db.sqlite3'),
+        _db_url,
         conn_max_age=600,
     )
 }

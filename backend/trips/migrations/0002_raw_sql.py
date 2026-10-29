@@ -93,6 +93,54 @@ DROP INDEX IF EXISTS idx_booking_trip;
 """
 
 
+def apply_raw_sql(apps, schema_editor):
+    vendor = schema_editor.connection.vendor
+    with schema_editor.connection.cursor() as cursor:
+        if vendor == 'postgresql':
+            cursor.execute(CREATE_TRIP_COST_SUMMARY_VIEW)
+            cursor.execute(CREATE_SP_TRIP_BUDGET_REPORT)
+            cursor.execute(CREATE_TRIGGER_FUNCTION + CREATE_TRIGGER)
+            for stmt in CREATE_INDICES.strip().split(';'):
+                if stmt.strip():
+                    cursor.execute(stmt)
+        elif vendor == 'sqlite':
+            cursor.execute(DROP_TRIP_COST_SUMMARY_VIEW)
+            sqlite_view = """
+            CREATE VIEW IF NOT EXISTS v_trip_cost_summary AS
+            SELECT
+                t.trip_id,
+                t.title,
+                b.total_amount,
+                COALESCE(SUM(e.amount), 0) AS total_spent,
+                b.total_amount - COALESCE(SUM(e.amount), 0) AS remaining
+            FROM trips_trip t
+            LEFT JOIN budget_budget b ON b.trip_id = t.trip_id
+            LEFT JOIN budget_expense e ON e.trip_id = t.trip_id
+            GROUP BY t.trip_id, t.title, b.total_amount;
+            """
+            cursor.execute(sqlite_view)
+            for stmt in CREATE_INDICES.strip().split(';'):
+                if stmt.strip():
+                    cursor.execute(stmt)
+
+
+def revert_raw_sql(apps, schema_editor):
+    vendor = schema_editor.connection.vendor
+    with schema_editor.connection.cursor() as cursor:
+        if vendor == 'postgresql':
+            cursor.execute(DROP_TRIGGER)
+            cursor.execute(DROP_SP_TRIP_BUDGET_REPORT)
+            cursor.execute(DROP_TRIP_COST_SUMMARY_VIEW)
+            for stmt in DROP_INDICES.strip().split(';'):
+                if stmt.strip():
+                    cursor.execute(stmt)
+        elif vendor == 'sqlite':
+            cursor.execute(DROP_TRIP_COST_SUMMARY_VIEW)
+            for stmt in DROP_INDICES.strip().split(';'):
+                if stmt.strip():
+                    cursor.execute(stmt)
+
+
 class Migration(migrations.Migration):
 
     dependencies = [
@@ -102,20 +150,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunSQL(
-            sql=CREATE_TRIP_COST_SUMMARY_VIEW,
-            reverse_sql=DROP_TRIP_COST_SUMMARY_VIEW,
-        ),
-        migrations.RunSQL(
-            sql=CREATE_SP_TRIP_BUDGET_REPORT,
-            reverse_sql=DROP_SP_TRIP_BUDGET_REPORT,
-        ),
-        migrations.RunSQL(
-            sql=CREATE_TRIGGER_FUNCTION + CREATE_TRIGGER,
-            reverse_sql=DROP_TRIGGER,
-        ),
-        migrations.RunSQL(
-            sql=CREATE_INDICES,
-            reverse_sql=DROP_INDICES,
-        ),
+        migrations.RunPython(apply_raw_sql, revert_raw_sql),
     ]
